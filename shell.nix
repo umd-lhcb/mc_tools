@@ -30,7 +30,7 @@ pkgs.mkShell {
     SOURCE_DATE_EPOCH=$(date +%s)
 
     if test -d $HOME/build/python-venv; then
-      VENV=$HOME/build/python-venv/lhcb-ntuples-gen
+      VENV=$HOME/build/python-venv/mc_tools
     else
       VENV=./.virtualenv
     fi
