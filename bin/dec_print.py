@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Wed Jul 08, 2020 at 01:19 AM +0800
+# Last Change: Wed Jul 08, 2020 at 01:21 AM +0800
 
 import sys
 import operator
@@ -30,9 +30,10 @@ class MyDecFileParser(DecFileParser):
                                ('  '.join(p for p in dm_details[1]), dm_details[2], dm_details[3])))
 
         output_dms.sort(key=operator.itemgetter(0), reverse=(not ascending))
+        norm = sum([bf for bf, _ in output_dms])
 
         for bf, info in output_dms:
-            print('  %.4f : %s' % (bf, info))  # Manuel wants the BF to have 4 decimals.
+            print('  %.4f : %s' % (bf/norm, info))  # Manuel wants the BF to be normalized and have 4 decimals.
 
     def _decay_mode_details(self, decay_mode):
         bf, fsp_names, model, model_params = super()._decay_mode_details(
