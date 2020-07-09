@@ -2,11 +2,12 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Thu Jul 09, 2020 at 08:42 PM +0800
+# Last Change: Thu Jul 09, 2020 at 08:57 PM +0800
 
 from re import search
 from os import path
 from glob import glob
+from pathlib import Path
 
 from yaml import dump
 from chardet import detect  # This is needed because not all .dec files are encoded in UTF-8.
@@ -27,7 +28,7 @@ OUTPUT_DB = PWD + '/dec_db.yml'
 
 
 def gen_match_from_meta(meta):
-    return {m: r'^# '+m+r': (.*)$' for m in meta}
+    return {m: r'^#\s?'+m+r': (.*)$' for m in meta}
 
 
 def search_meta_in_line(line, meta_matcher):
@@ -63,6 +64,12 @@ def search_meta_in_bin(raw, meta_matcher, encoding):
     return meta_dict
 
 
+def regulate_pathname(p):
+    path = Path(p)
+    filename, base_dir = path.stem, path.parent.stem
+    return '{}/{}'.format(base_dir, filename)
+
+
 if __name__ == '__main__':
     dk_file_db = {}
     meta_matcher = gen_match_from_meta(DEC_METADATA)
@@ -73,7 +80,9 @@ if __name__ == '__main__':
 
         metadata = search_meta_in_bin(raw_data, meta_matcher, encoding)
         if metadata:
-            dk_file_db[dk_file] = metadata
+            file_path = regulate_pathname(dk_file)
+            metadata['RelativePath'] = file_path
+            dk_file_db[metadata['EventType']] = metadata
 
     with open(OUTPUT_DB, 'w') as f:
         dump(dk_file_db, f, default_flow_style=False)
