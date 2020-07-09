@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Fri Jul 10, 2020 at 02:17 AM +0800
+# Last Change: Fri Jul 10, 2020 at 02:26 AM +0800
 
 from urllib.request import urlretrieve
 from argparse import ArgumentParser
@@ -26,7 +26,7 @@ def parse_input():
 specify the Event ID of .dec files to download
     ''')
 
-    parser.add_argument('-o', '--output',
+    parser.add_argument('-o', '--output-dir',
                         default='.',
                         help='''
 specify output directory.
@@ -45,6 +45,19 @@ def dec_url_fmt(tag, file_path, url=DEC_GITLAB_URL):
     return url.format(tag, file_path)
 
 
+def download_dec(eid, filename, output_dir, tag):
+    output_filename = eid + '-' + filename + '.dec'
+    url = dec_url_fmt(tag, filename)
+
+    try:
+        urlretrieve(url, output_dir+'/'+output_filename)
+    except Exception as err:
+        err_msg = 'Download of Event ID {} failed with error {}.\n'.format(
+            filename, err.__class__.__name__)
+        err_msg += 'The URL is: {}.\n'.format(url)
+        return err_msg
+
+
 if __name__ == '__main__':
     with open(OUTPUT_DB, 'r') as f:
         dk_file_db = safe_load(f)
@@ -54,16 +67,9 @@ if __name__ == '__main__':
     dk_to_down = []
     for eid in args.dec_files:
         try:
-            dk_to_down.append((eid, dk_file_db[eid]['RelativePath']))
+            dk_to_down.append((eid, dk_file_db[eid]['Filename']))
         except KeyError:
             print('Unknown Event ID: {}.'.format(eid))
 
-    for filename, rel_path in dk_to_down:
-        try:
-            url = dec_url_fmt(args.tag, rel_path)
-            urlretrieve(url, args.output+'/'+filename)
-        except Exception as err:
-            print('Download of Event ID {} failed with error {}.'.format(
-                filename, err.__class__.__name__
-            ))
-            print('The URL is: {}.'.format(url))
+    for eid, filename in dk_to_down:
+        download_dec(eid, filename, args.output_dir, args.tag)
