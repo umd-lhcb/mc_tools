@@ -2,10 +2,9 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Thu Jul 09, 2020 at 08:59 PM +0800
+# Last Change: Thu Jul 09, 2020 at 09:06 PM +0800
 
 from re import search
-from os import path
 from glob import glob
 from pathlib import Path
 
@@ -22,9 +21,9 @@ DEC_METADATA = [
     'Date',
 ]
 
-PWD = path.abspath(path.dirname(__file__))
-DKFILES = PWD + '/../dec_files/DecFiles/dkfiles/*.dec'
-OUTPUT_DB = PWD + '/dec_db.yml'
+PWD = Path.resolve(Path(__file__).parent)
+DKFILES = PWD / '../dec_files/DecFiles/dkfiles/*.dec'
+OUTPUT_DB = PWD / 'dec_db.yml'
 
 
 def gen_match_from_meta(meta):
@@ -74,7 +73,7 @@ if __name__ == '__main__':
     dk_file_db = {}
     meta_matcher = gen_match_from_meta(DEC_METADATA)
 
-    for dk_file in glob(DKFILES):
+    for dk_file in glob(str(DKFILES)):
         raw_data = open(dk_file, 'rb').read()
         encoding = detect(raw_data)['encoding']
 
