@@ -50,6 +50,6 @@ Multiple `.dec` files can be downloaded with:
 
 The script accept the following parameters
 
-- `-d`: event types. Multiple event types should be separated with ` `
-- `-o`: Output directory for downloaded `.dec` files. Default to `.`.
-- `-t`: The tag of the `DecFiles` repository. Default to `v30r46`.
+- `-d`: event types. Multiple event types should be separated with space
+- `-o`: Output directory for downloaded `.dec` files. Default to `.`
+- `-t`: The tag of the `DecFiles` repository. Default to `v30r46`
