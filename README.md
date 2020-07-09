@@ -1,6 +1,10 @@
 # mc_tools
 Tools for MC-related activities.
 
+**Note**: This project includes CERN's `DecFiles` as a submodule. However,
+normally the submodule doesn't need to be initialized by normal user, as it is
+only useful when updating the `.dec` YAML database.
+
 
 ## Installation
 Install all Python dependencies with:
@@ -8,11 +12,9 @@ Install all Python dependencies with:
 pip -r ./requirements.txt
 ```
 
-The scripts in the `bin` folder then can be invoked.
-
 
 ## Usage:
-### `dec_print.py`
+### `bin/dec_print.py`
 This script prints out all explicitly defined decays in a `.dec` file:
 ```
 dec_print.py <path_to_dec_file>
@@ -28,7 +30,7 @@ Skipping creation of these charge-conjugate decay trees.
 
 That warning is generated when parsing:
 ```
-./dec_files/lhcb-semileptonic/11873010.dec
+./bin/dec_files/lhcb-semileptonic/11873010.dec
 ```
 
 This just means that in the `.dec` file, the `anti-B0sig` is not explicitly
@@ -39,3 +41,15 @@ To fix this, just add the following line to that file:
 ```
 ChargeConj anti-B0sig      B0sig
 ```
+
+### `bin/get_dec_file.py`
+Multiple `.dec` files can be downloaded with:
+```
+./bin/get_dec_file.py -d 11873010 60002018 -o dec_files
+```
+
+The script accept the following parameters
+
+- `-d`: event types. Multiple event types should be separated with ` `
+- `-o`: Output directory for downloaded `.dec` files. Default to `.`.
+- `-t`: The tag of the `DecFiles` repository. Default to `v30r46`.
