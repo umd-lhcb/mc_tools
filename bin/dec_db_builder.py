@@ -2,9 +2,14 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Thu Jul 09, 2020 at 07:40 PM +0800
+# Last Change: Thu Jul 09, 2020 at 08:39 PM +0800
 
 from re import search
+from os import path
+from glob import glob
+
+from yaml import dump
+from chardet import detect  # This is needed because not all .dec files are encoded in UTF-8.
 
 
 DEC_METADATA = [
@@ -15,6 +20,10 @@ DEC_METADATA = [
     'Responsible',
     'Date',
 ]
+
+PWD = path.abspath(path.dirname(__file__))
+DKFILES = PWD + '/../dec_files/DecFiles/dkfiles/*.dec'
+OUTPUT_DB = PWD + '/dec_db.yml'
 
 
 def gen_match_from_meta(meta):
@@ -40,3 +49,31 @@ def search_meta_in_file(file_path, meta_matcher):
                 meta_dict[meta] = val
 
     return file_path, meta_dict
+
+
+def search_meta_in_bin(raw, meta_matcher, encoding):
+    meta_dict = {}
+    decoded = raw.decode(encoding).split('\n')
+
+    for line in decoded:
+        meta, val = search_meta_in_line(line, meta_matcher)
+        if meta:
+            meta_dict[meta] = val
+
+    return meta_dict
+
+
+if __name__ == '__main__':
+    dk_file_db = {}
+    meta_matcher = gen_match_from_meta(DEC_METADATA)
+
+    for dk_file in glob(DKFILES):
+        raw_data = open(dk_file, 'rb').read()
+        encoding = detect(raw_data)['encoding']
+
+        metadata = search_meta_in_bin(raw_data, meta_matcher, encoding)
+        if metadata:
+            dk_file_db[dk_file] = metadata
+
+    with open(OUTPUT_DB, 'w') as f:
+        dump(dk_file_db, f, default_flow_style=False)
