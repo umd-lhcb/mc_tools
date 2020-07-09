@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Fri Jul 10, 2020 at 03:05 AM +0800
+# Last Change: Fri Jul 10, 2020 at 03:11 AM +0800
 
 from urllib.request import urlretrieve
 from argparse import ArgumentParser
@@ -65,7 +65,7 @@ def download_dec(eid, filename, output_dir, tag):
     try:
         urlretrieve(url, output_dir+'/'+output_filename)
     except Exception as err:
-        err_msg = 'Download of Event ID {} failed with error {}.'.format(
+        err_msg = 'Download of Event ID {} failed with error {}.\n'.format(
             filename, err.__class__.__name__)
         err_msg += 'The URL is: {}.'.format(url)
         return err_msg
