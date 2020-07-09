@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Fri Jul 10, 2020 at 02:15 AM +0800
+# Last Change: Fri Jul 10, 2020 at 02:16 AM +0800
 
 from re import search
 from glob import glob
@@ -14,7 +14,6 @@ from chardet import detect  # This is needed because not all .dec files are enco
 
 DEC_METADATA = [
     'EventType',
-    'NickName',
     'Date',
 ]
 
