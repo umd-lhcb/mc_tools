@@ -48,7 +48,7 @@ Multiple `.dec` files can be downloaded with:
 ./bin/get_dec_file.py -d 11873010 60002018 -o dec_files
 ```
 
-The script accept the following parameters
+The script accepts the following parameters:
 
 - `-d`: event types. Multiple event types should be separated with space
 - `-o`: Output directory for downloaded `.dec` files. Default to `.`
