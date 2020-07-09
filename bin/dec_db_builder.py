@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Fri Jul 10, 2020 at 02:16 AM +0800
+# Last Change: Fri Jul 10, 2020 at 02:21 AM +0800
 
 from re import search
 from glob import glob
@@ -74,8 +74,7 @@ if __name__ == '__main__':
 
         metadata = search_meta_in_bin(raw_data, meta_matcher, encoding)
         if metadata:
-            file_path = regulate_pathname(dk_file)
-            metadata['RelativePath'] = file_path
+            metadata['Filename'] = regulate_pathname(dk_file)
 
             event_type = metadata['EventType']
             del(metadata['EventType'])
