@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Thu Jul 09, 2020 at 08:39 PM +0800
+# Last Change: Thu Jul 09, 2020 at 08:42 PM +0800
 
 from re import search
 from os import path
@@ -34,7 +34,7 @@ def search_meta_in_line(line, meta_matcher):
     for meta, pattern in meta_matcher.items():
         result = search(pattern, line)
         if result:
-            return meta, result.group(1)
+            return meta, result.group(1).strip()  # Remove tailing whitespace
 
     return False, False
 
