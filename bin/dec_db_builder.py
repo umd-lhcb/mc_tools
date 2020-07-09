@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Fri Jul 10, 2020 at 02:21 AM +0800
+# Last Change: Fri Jul 10, 2020 at 03:05 AM +0800
 
 from re import search
 from glob import glob
@@ -19,7 +19,7 @@ DEC_METADATA = [
 
 PWD = Path.resolve(Path(__file__).parent)
 DKFILES = PWD / '../dec_files/DecFiles/dkfiles/*.dec'
-OUTPUT_DB = PWD / 'dec_db.yml'
+OUTPUT_DB = PWD / '..' / 'dec_db.yml'
 
 
 def gen_match_from_meta(meta):

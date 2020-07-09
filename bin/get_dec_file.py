@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Fri Jul 10, 2020 at 02:50 AM +0800
+# Last Change: Fri Jul 10, 2020 at 03:05 AM +0800
 
 from urllib.request import urlretrieve
 from argparse import ArgumentParser
@@ -13,7 +13,7 @@ from yaml import safe_load
 
 
 PWD = Path.resolve(Path(__file__).parent)
-OUTPUT_DB = PWD / 'dec_db.yml'
+OUTPUT_DB = PWD / '..' / 'dec_db.yml'
 DEC_GITLAB_URL = 'https://gitlab.cern.ch/lhcb-datapkg/Gen/DecFiles/-/raw/{}/dkfiles/{}.dec?inline=false'
 
 
