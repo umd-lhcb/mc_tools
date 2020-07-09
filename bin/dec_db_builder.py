@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Thu Jul 09, 2020 at 09:06 PM +0800
+# Last Change: Fri Jul 10, 2020 at 02:15 AM +0800
 
 from re import search
 from glob import glob
@@ -15,9 +15,6 @@ from chardet import detect  # This is needed because not all .dec files are enco
 DEC_METADATA = [
     'EventType',
     'NickName',
-    'Descriptor',
-    'PhysicsWG',
-    'Responsible',
     'Date',
 ]
 
@@ -65,8 +62,7 @@ def search_meta_in_bin(raw, meta_matcher, encoding):
 
 def regulate_pathname(p):
     path = Path(p)
-    filename, base_dir = path.stem, path.parent.stem
-    return '{}/{}'.format(base_dir, filename)
+    return path.stem
 
 
 if __name__ == '__main__':
@@ -81,7 +77,11 @@ if __name__ == '__main__':
         if metadata:
             file_path = regulate_pathname(dk_file)
             metadata['RelativePath'] = file_path
-            dk_file_db[metadata['EventType']] = metadata
+
+            event_type = metadata['EventType']
+            del(metadata['EventType'])
+
+            dk_file_db[event_type] = metadata
 
     with open(OUTPUT_DB, 'w') as f:
         dump(dk_file_db, f, default_flow_style=False)
