@@ -1,0 +1,3 @@
+[submodule "dec_files/DecFiles"]
+	path = dec_files/DecFiles
+	url = https://gitlab.cern.ch/lhcb-datapkg/Gen/DecFiles.git
