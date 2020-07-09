@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Thu Jul 09, 2020 at 08:57 PM +0800
+# Last Change: Thu Jul 09, 2020 at 08:59 PM +0800
 
 from re import search
 from os import path
@@ -28,7 +28,7 @@ OUTPUT_DB = PWD + '/dec_db.yml'
 
 
 def gen_match_from_meta(meta):
-    return {m: r'^#\s?'+m+r': (.*)$' for m in meta}
+    return {m: r'^#\s?'+m+r':(.*)$' for m in meta}
 
 
 def search_meta_in_line(line, meta_matcher):
