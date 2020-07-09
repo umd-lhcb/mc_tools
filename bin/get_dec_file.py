@@ -2,11 +2,12 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Fri Jul 10, 2020 at 02:26 AM +0800
+# Last Change: Fri Jul 10, 2020 at 02:50 AM +0800
 
 from urllib.request import urlretrieve
 from argparse import ArgumentParser
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
 
 from yaml import safe_load
 
@@ -41,8 +42,20 @@ specify DecFiles tag.
     return parser.parse_args()
 
 
+def rm_none(l):
+    return [i for i in l if i is not None]
+
+
 def dec_url_fmt(tag, file_path, url=DEC_GITLAB_URL):
     return url.format(tag, file_path)
+
+
+def prep_params_for_download(eid, db, output_dir, tag):
+    try:
+        return eid, db[eid]['Filename'], output_dir, tag
+    except KeyError:
+        print('Unknown Event ID: {}.'.format(eid))
+        return None
 
 
 def download_dec(eid, filename, output_dir, tag):
@@ -52,9 +65,9 @@ def download_dec(eid, filename, output_dir, tag):
     try:
         urlretrieve(url, output_dir+'/'+output_filename)
     except Exception as err:
-        err_msg = 'Download of Event ID {} failed with error {}.\n'.format(
+        err_msg = 'Download of Event ID {} failed with error {}.'.format(
             filename, err.__class__.__name__)
-        err_msg += 'The URL is: {}.\n'.format(url)
+        err_msg += 'The URL is: {}.'.format(url)
         return err_msg
 
 
@@ -64,12 +77,15 @@ if __name__ == '__main__':
 
     args = parse_input()
 
-    dk_to_down = []
-    for eid in args.dec_files:
-        try:
-            dk_to_down.append((eid, dk_file_db[eid]['Filename']))
-        except KeyError:
-            print('Unknown Event ID: {}.'.format(eid))
+    dk_to_down = [prep_params_for_download(
+        eid, dk_file_db, args.output_dir, args.tag) for eid in args.dec_files]
+    dk_to_down = rm_none(dk_to_down)
 
-    for eid, filename in dk_to_down:
-        download_dec(eid, filename, args.output_dir, args.tag)
+    with ThreadPoolExecutor() as exe:
+        exec_results = [exe.submit(lambda p: download_dec(*p), params)
+                        for params in dk_to_down]
+        err_msg = [f.result() for f in exec_results]
+
+    err_msg = rm_none(err_msg)
+    if err_msg:
+        print('\n'.join(err_msg))
