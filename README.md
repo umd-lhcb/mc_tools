@@ -30,7 +30,7 @@ Skipping creation of these charge-conjugate decay trees.
 
 That warning is generated when parsing:
 ```
-./bin/dec_files/lhcb-semileptonic/11873010.dec
+./dec_files/lhcb-semileptonic/11873010.dec
 ```
 
 This just means that in the `.dec` file, the `anti-B0sig` is not explicitly
