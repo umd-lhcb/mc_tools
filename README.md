@@ -13,7 +13,7 @@ pip -r ./requirements.txt
 ```
 
 
-## Usage:
+## Usage
 ### `bin/dec_print.py`
 This script prints out all explicitly defined decays in a `.dec` file:
 ```
