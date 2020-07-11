@@ -45,7 +45,7 @@ ChargeConj anti-B0sig      B0sig
 ### `bin/get_dec_file.py`
 Multiple `.dec` files can be downloaded with:
 ```
-./bin/get_dec_file.py -d 11873010 60002018 -o dec_files
+./bin/get_dec_file.py -d 11873010 60002018 -o dec_files -s
 ```
 
 The script accepts the following parameters:
@@ -53,3 +53,4 @@ The script accepts the following parameters:
 - `-d`: event types. Multiple event types should be separated with space
 - `-o`: Output directory for downloaded `.dec` files. Default to `.`
 - `-t`: The tag of the `DecFiles` repository. Default to `v30r46`
+- `-s`: Suppress output if this flag is provided
