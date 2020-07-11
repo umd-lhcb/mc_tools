@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Sat Jul 11, 2020 at 09:01 PM +0800
+# Last Change: Sat Jul 11, 2020 at 09:03 PM +0800
 
 from urllib.request import urlretrieve
 from argparse import ArgumentParser
@@ -40,7 +40,7 @@ specify DecFiles tag.
 ''')
 
     parser.add_argument('-s', '--silent',
-                        default=False,
+                        action='store_true',
                         help='''
 suppresses output printouts.
 ''')
@@ -61,7 +61,6 @@ def prep_params_for_download(eid, db, output_dir, tag, silent):
         return eid, db[eid]['Filename'], output_dir, tag, silent
     except KeyError:
         print('Unknown Event ID: {}.'.format(eid))
-        return None
 
 
 def download_dec(eid, filename, output_dir, tag, silent):
