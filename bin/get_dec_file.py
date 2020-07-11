@@ -39,6 +39,12 @@ specify output directory.
 specify DecFiles tag.
 ''')
 
+    parser.add_argument('-s', '--silent',
+                        default=False,
+                        help='''
+suppresses output printouts.
+''')
+
     return parser.parse_args()
 
 
@@ -50,20 +56,23 @@ def dec_url_fmt(tag, file_path, url=DEC_GITLAB_URL):
     return url.format(tag, file_path)
 
 
-def prep_params_for_download(eid, db, output_dir, tag):
+def prep_params_for_download(eid, db, output_dir, tag, silent):
     try:
-        return eid, db[eid]['Filename'], output_dir, tag
+        return eid, db[eid]['Filename'], output_dir, tag, silent
     except KeyError:
         print('Unknown Event ID: {}.'.format(eid))
         return None
 
 
-def download_dec(eid, filename, output_dir, tag):
+def download_dec(eid, filename, output_dir, tag, silent):
     output_filename = eid + '-' + filename + '.dec'
+    output_filename = output_filename.replace(',', '-').replace('=','__')
     url = dec_url_fmt(tag, filename)
 
     try:
         urlretrieve(url, output_dir+'/'+output_filename)
+        if not silent:
+            print(' open '+output_filename)
     except Exception as err:
         err_msg = 'Download of Event ID {} failed with error {}.\n'.format(
             filename, err.__class__.__name__)
@@ -78,7 +87,7 @@ if __name__ == '__main__':
     args = parse_input()
 
     dk_to_down = [prep_params_for_download(
-        eid, dk_file_db, args.output_dir, args.tag) for eid in args.dec_files]
+        eid, dk_file_db, args.output_dir, args.tag, args.silent) for eid in args.dec_files]
     dk_to_down = rm_none(dk_to_down)
 
     with ThreadPoolExecutor() as exe:
