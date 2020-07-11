@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Fri Jul 10, 2020 at 03:11 AM +0800
+# Last Change: Sat Jul 11, 2020 at 09:01 PM +0800
 
 from urllib.request import urlretrieve
 from argparse import ArgumentParser
@@ -65,14 +65,14 @@ def prep_params_for_download(eid, db, output_dir, tag, silent):
 
 
 def download_dec(eid, filename, output_dir, tag, silent):
-    output_filename = eid + '-' + filename + '.dec'
-    output_filename = output_filename.replace(',', '-').replace('=','__')
+    output_filename = eid + '--' + filename + '.dec'
+    output_filename = output_filename.replace(',', '-').replace('=', '__')
     url = dec_url_fmt(tag, filename)
 
     try:
         urlretrieve(url, output_dir+'/'+output_filename)
         if not silent:
-            print(' open '+output_filename)
+            return ' open '+output_filename
     except Exception as err:
         err_msg = 'Download of Event ID {} failed with error {}.\n'.format(
             filename, err.__class__.__name__)
@@ -93,8 +93,6 @@ if __name__ == '__main__':
     with ThreadPoolExecutor() as exe:
         exec_results = [exe.submit(lambda p: download_dec(*p), params)
                         for params in dk_to_down]
-        err_msg = [f.result() for f in exec_results]
+        msg = [f.result() for f in exec_results]
 
-    err_msg = rm_none(err_msg)
-    if err_msg:
-        print('\n'.join(err_msg))
+    print('\n'.join(rm_none(msg)))
