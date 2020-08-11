@@ -24,16 +24,25 @@ class MyDecFileParser(DecFileParser):
         dms = self._find_decay_modes(mother)
 
         output_dms = list()
+        # Finding maximum length of decay string
+        maxlen = 0
         for dm in dms:
             dm_details = self._decay_mode_details(dm)
-            output_dms.append((dm_details[0], '%-50s %20s %s' %
+            decay = ('  '.join(p for p in dm_details[1]))
+
+            if(len(decay) > maxlen): maxlen = len(decay)
+        width = str(maxlen + 5) # Print the FF 5 spaces away from closest decay
+        format_string = '%-'+width+'s %s %s'
+        for dm in dms:
+            dm_details = self._decay_mode_details(dm)
+            output_dms.append((dm_details[0], format_string %
                                ('  '.join(p for p in dm_details[1]), dm_details[2], dm_details[3])))
 
         output_dms.sort(key=operator.itemgetter(0), reverse=(not ascending))
         norm = sum([bf for bf, _ in output_dms])
 
         for bf, info in output_dms:
-            print('  %.4f : %s' % (bf/norm, info))  # Manuel wants the BF to be normalized and have 4 decimals.
+            print('  %.4f   %s' % (bf/norm, info))  # Manuel wants the BF to be normalized and have 4 decimals.
 
     def _decay_mode_details(self, decay_mode):
         bf, fsp_names, model, model_params = super()._decay_mode_details(
