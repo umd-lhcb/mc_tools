@@ -1,0 +1,89 @@
+# EventType: 15976000
+# 
+# Descriptor: [Lambda_b0 ==> ^(D- -> ^K+ ^pi- ^pi-) ((Charm) --> ^mu+ nu_mu ... ) {X} {X} {X} {X} {X} {X} {X} ]CC
+#
+# NickName: Lb_Dst+Lc,LcD=cocktail,D+mu=RDplusCut,TightCut 
+# Cuts: LoKi::GenCutTool/TightCut
+#
+#
+# InsertPythonCode:
+#
+# from Configurables import LoKi__GenCutTool
+# from Gauss.Configuration import *
+# gen = Generation()
+# gen.SignalPlain.addTool ( LoKi__GenCutTool , 'TightCut' )
+# tightCut = gen.SignalPlain.TightCut
+# tightCut.Decay = "[Lambda_b0 ==> ^(D- -> ^K+ ^pi- ^pi-) ((Charm) --> ^mu+ nu_mu ... ) {X} {X} {X} {X} {X} {X} {X} ]CC"
+# tightCut.Preambulo += [
+#  "from LoKiCore.functions import in_range"  ,
+#  "from GaudiKernel.SystemOfUnits import GeV, MeV"  ,
+#  "pipiKP     = GCHILD(GP,1) + GCHILD(GP,2) + GCHILD(GP,3)" ,
+#  "pipiKPT     = GCHILD(GPT,1) + GCHILD(GPT,2) + GCHILD(GPT,3)" ,
+#]
+#tightCut.Cuts      =    {
+# '[pi+]cc'   : " in_range( 0.010 , GTHETA , 0.400 )& ( GPT > 150 * MeV )" ,
+# '[K-]cc'   : " in_range( 0.010 , GTHETA , 0.400 ) & ( GPT > 150 * MeV )" ,
+# '[mu+]cc'  : " in_range( 0.010 , GTHETA , 0.400 ) & (GP > 2500* MeV) ",
+# '[D+]cc'   : "( pipiKP > 15000 * MeV ) & (pipiKPT > 2300 * MeV)"
+#    }
+# EndInsertPythonCode
+#
+# Documentation: Lb -> Lc+ D* with Lc->XMuNu and D final state forced to K Pi Pi
+# Background for B2DmunuX analyses
+# 
+# EndDocumentation
+#
+# CPUTime: <4min
+# PhysicsWG: B2SL
+# Tested: Yes
+# Responsible: Simone Meloni
+# Email: simone.meloni@cern.ch
+# Date: 20180529
+#
+Alias      MyLambda_c+       Lambda_c+
+Alias      Myanti-Lambda_c-  anti-Lambda_c-
+ChargeConj MyLambda_c+       Myanti-Lambda_c-
+#
+Alias        MyD+   D+
+Alias        MyD-   D-    
+ChargeConj   MyD+   MyD-
+#
+Alias        MyD*-  D*-
+Alias        MyD*+  D*+
+ChargeConj   MyD*+  MyD*-
+#
+Decay Lambda_b0sig
+  0.00046   MyLambda_c+       MyD-        PHSP;
+  0.00092   MyLambda_c+       MyD*-       PHSP; 
+  0.00025   MyLambda_c+       MyD-  pi0   PHSP; 
+  0.00460   MyLambda_c+       MyD-  K0    PHSP; 
+  0.00920   MyLambda_c+       MyD*- K0    PHSP;
+  0.00460   MyLambda_c+       MyD-  K*0   PHSP;
+  0.00920   MyLambda_c+       MyD*- K*0   PHSP; 
+Enddecay
+CDecay anti-Lambda_b0sig
+#
+Decay MyLambda_c+
+  0.03500         mu+     nu_mu   Lambda0       PHOTOS PHSP;
+  0.03500         mu+     nu_mu   K-     p+     PHOTOS PHSP;
+  0.01000         mu+     nu_mu   Sigma0        PHOTOS PHSP;
+  0.01000         mu+     nu_mu   Sigma*0       PHOTOS PHSP;
+  0.00600         mu+     nu_mu   n0            PHOTOS PHSP;
+  0.00400         mu+     nu_mu   Delta0        PHOTOS PHSP;
+  0.01200         mu+     nu_mu   p+      pi-   PHOTOS PHSP;
+  0.01200         mu+     nu_mu   n0      pi0   PHOTOS PHSP;
+Enddecay
+CDecay Myanti-Lambda_c-
+#
+Decay MyD*+
+ 0.30700        MyD+    pi0             VSS;
+ 0.01600        MyD+    gamma           VSP_PWAVE;
+Enddecay
+CDecay MyD*-
+#
+Decay MyD+
+  0.09460       K-        pi+   pi+             PHOTOS D_DALITZ;
+Enddecay
+CDecay MyD-
+#
+End

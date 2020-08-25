@@ -186,9 +186,9 @@ Enddecay
 CDecay MyD_2*-
 #
 Decay MyD_2*0
-  0.3800   MyD0  pi0            PHOTOS TSS;
-  0.3800   MyD*+  pi-           PHOTOS TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
-  0.1900   MyD*0  pi0           PHOTOS TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+  0.4750   MyD*+  pi-           PHOTOS TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+  0.2375   MyD*0  pi0           PHOTOS TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+  0.2375   MyD0  pi0            PHOTOS TSS;
   0.0255   MyD_0*+  pi-         PHOTOS PHSP;
   0.0081   MyD_0*0  pi0         PHOTOS PHSP;
   0.0080   MyD0  pi+  pi-       PHOTOS PHSP;
