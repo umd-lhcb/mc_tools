@@ -54,3 +54,16 @@ The script accepts the following parameters:
 - `-o`: Output directory for downloaded `.dec` files. Default to `.`
 - `-t`: The tag of the `DecFiles` repository. Default to `v30r46`
 - `-s`: Suppress output if this flag is provided
+
+### `bin/dec_db_builder.py`
+
+Together with the `dec_files/DecFiles` submodule, this is used to update `dec_db.yml`.
+
+To update:
+
+1. `git submodule update --init`
+2. `git submodule update --remote`
+3. Commit the submodule pointer
+4. `./bin/dec_db_builder.py`. This will update `dec_db.yml`
+5. Commit the updated database so people can download `.dec` files without init
+   the submodule
