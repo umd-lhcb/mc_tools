@@ -2251,6 +2251,9 @@
 '11196220':
   Date: '20191208'
   Filename: Bd_DsstDst,Dsgamma,D0pi=DDALITZ,DecProdCut
+'11196230':
+  Date: '20200721'
+  Filename: Bd_Ds2460Dst,Dsgamma,D0pi=DDALITZ,DecProdCut
 '11196400':
   Date: '20130315'
   Filename: Bd_DsD,taunu3pipi0=DecProdCut,tightcut
@@ -2416,12 +2419,12 @@
 '11202401':
   Date: '20051107'
   Filename: Bd_K+pi-pi0=DecProdCut
-'11202601':
-  Date: '20121126'
-  Filename: Bd_K1gamma,Kpipi0=mK1270,DecProdCut
-'11202602':
-  Date: '20130809'
+'11202603':
+  Date: '20200806'
   Filename: Bd_K1gamma,Kpipi0=mK1270,HighPtGamma,DecProdCut
+'11202604':
+  Date: '20200806'
+  Filename: Bd_K1gamma,Kpipi0=mK1270,DecProdCut
 '11204300':
   Date: '20180527'
   Filename: Bd_Kspi+pi-gamma=TightCut,K1cocktail
@@ -3061,9 +3064,15 @@
 '11574010':
   Date: '20130418'
   Filename: Bd_Dst+taunu,mununu=TightCuts
+'11574011':
+  Date: '20200603'
+  Filename: Bd_Dst+taunu,D0pi+,mununu=RDstar,TightCut
 '11574020':
   Date: '20130418'
   Filename: Bd_Dst+munu=TightCuts
+'11574021':
+  Date: '20200603'
+  Filename: Bd_Dst+munu,D0pi+=RDstar,TightCut
 '11574030':
   Date: '20150114'
   Filename: Bd_Dmunu,Kstmunu=DecProdCut
@@ -3424,15 +3433,24 @@
 '11876041':
   Date: '20161019'
   Filename: Bd_Dstmunu,Kpipipi=cocktail,hqet,AMPGEN,TightCut
+'11876042':
+  Date: '20200807'
+  Filename: Bd_Dstmunu,Kpipipi=cocktail,hqet,AMPGENv2,TightCut
 '11876051':
   Date: '20161019'
   Filename: Bd_Dstmunu,piKpipi=cocktail,hqet,AMPGEN,TightCut
+'11876052':
+  Date: '20200807'
+  Filename: Bd_Dstmunu,piKpipi=cocktail,hqet,AMPGENv2,TightCut
 '11876060':
   Date: '20170315'
   Filename: Bd_D0Xmunu,D0=cocktail,LHCbAcceptance
 '11876061':
   Date: '20170315'
   Filename: Bd_D0Xmunu,D0_K3pi=LHCbAcceptance
+'11876062':
+  Date: '20200807'
+  Filename: Bd_Dstmunu,Kpipipi=cocktail,hqet,PhSp,TightCut
 '11876070':
   Date: '20190121'
   Filename: Bd_D0pitaunu,tau_mu,D0_4h=cocktail,mu4hinAcc
@@ -4609,6 +4627,9 @@
 '12145120':
   Date: '20170302'
   Filename: Bu_psi2SKst,mm=DecProdCut
+'12145121':
+  Date: '20200714'
+  Filename: Bu_psi2SKS0pi,mm=DecProdCut
 '12145150':
   Date: '20141020'
   Filename: Bu_JpsiKSpi,mm=DecProdCut
@@ -5869,6 +5890,9 @@
 '12197221':
   Date: '20160705'
   Filename: Bu_Dst0DstKpi,D0gamma,D0pi=TightCut
+'12197280':
+  Date: '20200806'
+  Filename: Bu_DstDspi,D0Pi,KKPi,Dpi,nrDsstar=DecProdCut,WithMinP
 '12197400':
   Date: '20190604'
   Filename: Bu_DstD0Kst0,Kpipi,Kpi=TightCut
@@ -6775,9 +6799,21 @@
 '12573000':
   Date: '20130418'
   Filename: Bu_D0taunu,mununu=TightCuts
+'12573001':
+  Date: '20200603'
+  Filename: Bu_D0taunu,mununu=RDstar,TightCut
+'12573002':
+  Date: '20200709'
+  Filename: Bu_Dststppmunu=TightCut
+'12573004':
+  Date: '20200709'
+  Filename: Bu_Dstppmunu=TightCut
 '12573010':
   Date: '20130418'
   Filename: Bu_D0munu=TightCuts
+'12573012':
+  Date: '20200603'
+  Filename: Bu_D0munu=RDstar,TightCut
 '12573021':
   Date: '20150930'
   Filename: Bu_Dst0taunu,mununu=TightCut
@@ -6934,6 +6970,12 @@
 '12773000':
   Date: '20180206'
   Filename: Bu_D+ppbar,Xmunu=DecProdCut
+'12773400':
+  Date: '20200603'
+  Filename: Bu_Dst0taunu,D0pi0,mununu=RDstar,TightCut
+'12773410':
+  Date: '20200603'
+  Filename: Bu_Dst0munu,D0pi0=RDstar,TightCut
 '12775001':
   Date: '20120824'
   Filename: Bu_Dst02400munu,DsK,KKpi=DecProdCut
@@ -7096,6 +7138,9 @@
 '12875406':
   Date: '20170301'
   Filename: Bu_D0munu,KKpipi=cocktail,D0muInAcc,CutsForD0FromB,BRcorr1,AMPGEN
+'12875407':
+  Date: '20200811'
+  Filename: Bu_D0munu,Kpipipi=cocktail,D0muInAcc,BRcorr1
 '12875411':
   Date: '20150527'
   Filename: Bu_Lcpbarmunu,pX=TightCut
@@ -13384,6 +13429,9 @@
 '16266161':
   Date: '20160621'
   Filename: Xibc_LbKs=DecProdCut,m=6.9GeV,t=0.4ps
+'16267031':
+  Date: '20200713'
+  Filename: Xib_Lb3pi,pKpi=TightCut
 '16268010':
   Date: '20200427'
   Filename: Xibst0_Xibpi,Xic03pi,pKKpi=TightCut
@@ -13447,6 +13495,9 @@
 '16303437':
   Date: '20150707'
   Filename: Omegab_rho-h-p+,pi-pi0_PPChange=phsp,DecProdCut
+'16365031':
+  Date: '20200713'
+  Filename: Xib_Lbpi,pKpi=TightCut
 '16463030':
   Date: '20161104'
   Filename: Xib_Xich-,ph-=PHSP,DecProdCut
@@ -14791,6 +14842,9 @@
 '24152001':
   Date: '20110909'
   Filename: incl_Jpsi,ee=DecProdCut
+'24152002':
+  Date: '20200424'
+  Filename: exclu_Jpsi,ee=coherent_starlight_evtGen_transverse
 '24164000':
   Date: '20170104'
   Filename: Jpsi_Dspi,KKpi=DecProdCut
@@ -16582,6 +16636,9 @@
 '30112000':
   Date: '20200417'
   Filename: exclu_gammagamma,mm=coherent_starlight
+'30122001':
+  Date: '20200428'
+  Filename: exclu_ee,gg=coherent_starlight_evtGen
 '31113001':
   Date: '20111013'
   Filename: tau_mumumu=DecProdCut
