@@ -3,6 +3,3 @@ __pycache__
 .DS_Store
 
 .lvimrc
-.python-version
-.envrc
-.direnv
