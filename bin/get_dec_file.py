@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Sat Jul 11, 2020 at 09:03 PM +0800
+# Last Change: Thu May 06, 2021 at 01:55 AM +0200
 
 from urllib.request import urlretrieve
 from argparse import ArgumentParser
@@ -45,32 +45,42 @@ specify DecFiles tag.
 suppresses output printouts.
 ''')
 
+    parser.add_argument('-D', '--debug',
+                        action='store_true',
+                        help='''
+turn on debug messages.
+''')
+
     return parser.parse_args()
 
 
-def rm_none(l):
-    return [i for i in l if i is not None]
+def rm_none(lst):
+    return [i for i in lst if i is not None]
 
 
 def dec_url_fmt(tag, file_path, url=DEC_GITLAB_URL):
     return url.format(tag, file_path)
 
 
-def prep_params_for_download(eid, db, output_dir, tag, silent):
+def prep_params_for_download(eid, db, output_dir, tag, silent, debug):
     try:
-        return eid, db[eid]['Filename'], output_dir, tag, silent
+        return eid, db[eid]['Filename'], output_dir, tag, silent, debug
     except KeyError:
         print('Unknown Event ID: {}.'.format(eid))
 
 
-def download_dec(eid, filename, output_dir, tag, silent):
+def download_dec(eid, filename, output_dir, tag, silent=False, debug=False):
     output_filename = eid + '--' + filename + '.dec'
     output_filename = output_filename.replace(',', '-').replace('=', '__')
     url = dec_url_fmt(tag, filename)
 
     try:
         urlretrieve(url, output_dir+'/'+output_filename)
-        if not silent:
+        if debug:
+            debug_msg = 'MC ID: {}\n'.format(eid)
+            debug_msg += 'URL: {}\n'.format(url)
+            return debug_msg
+        if not silent and not debug:
             return ' open '+output_filename
     except Exception as err:
         err_msg = 'Download of Event ID {} failed with error {}.\n'.format(
@@ -86,7 +96,8 @@ if __name__ == '__main__':
     args = parse_input()
 
     dk_to_down = [prep_params_for_download(
-        eid, dk_file_db, args.output_dir, args.tag, args.silent) for eid in args.dec_files]
+        eid, dk_file_db, args.output_dir, args.tag, args.silent, args.debug)
+        for eid in args.dec_files]
     dk_to_down = rm_none(dk_to_down)
 
     with ThreadPoolExecutor() as exe:
