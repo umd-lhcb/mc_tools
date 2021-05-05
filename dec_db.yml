@@ -106,12 +106,24 @@
 '10022013':
   Date: '20120918'
   Filename: incl_b=emu,OppositeSign,p3GeV,m4.6GeV,m7GeV,doca0.4mm,PtProd
+'10030000':
+  Date: '20201002'
+  Filename: incl_b=Jpsi,ppbar,InAcc,PT600
+'10030060':
+  Date: '20201002'
+  Filename: incl_b=etac1S,ppbar,InAcc,PT600
 '10040042':
   Date: '20181031'
   Filename: incl_b=CharmoniumKX,mumu,PPTcuts
 '10074000':
   Date: '20100817'
   Filename: incl_b=DMuInCascade
+'10132000':
+  Date: '20201013'
+  Filename: incl_b=psi2S,ppbar,InAcc,PTCut
+'10132010':
+  Date: '20201013'
+  Filename: incl_b=Jpsi,ppbar,InAcc,PTCut
 '10132030':
   Date: '20200422'
   Filename: incl_b=chic0,ppbar,InAcc,PTCut
@@ -133,6 +145,15 @@
 '10134001':
   Date: '20190220'
   Filename: incl_b=psi2S,LstLst,pK,InAcc
+'10134030':
+  Date: '20210409'
+  Filename: incl_b=chic0,phiphi,KK,InAcc
+'10134040':
+  Date: '20210409'
+  Filename: incl_b=chic1,phiphi,KK,InAcc
+'10134050':
+  Date: '20210409'
+  Filename: incl_b=chic2,phiphi,KK,InAcc
 '10134060':
   Date: '20190211'
   Filename: incl_b=etac1S,phiphi,KK,InAcc
@@ -244,6 +265,9 @@
 '11102203':
   Date: '20180228'
   Filename: Bd_Kstgamma=TightCut,PHSP
+'11102204':
+  Date: '20201119'
+  Filename: Bd_Kstgamma=TightCut,gam_PTabove1.8
 '11102211':
   Date: '20120220'
   Filename: Bd_KstPi0gamma,Kpi=DecProdCut
@@ -349,6 +373,9 @@
 '11103501':
   Date: '20130129'
   Filename: Bd_Kstrho,KSpi,pipi0=DecProdCut
+'11104000':
+  Date: '20210316'
+  Filename: Bd_pi+pi-Kst=sqDalitz,DecProdCut
 '11104002':
   Date: '20111128'
   Filename: Bd_Kst0Kst0=DecProdCut
@@ -571,6 +598,9 @@
 '11104360':
   Date: '20180228'
   Filename: Bd_Kspi+pi-gamma=TightCut,PHSP
+'11104372':
+  Date: '20201119'
+  Filename: Bd_KsPhigamma=TightCut,KSVtxCut
 '11104401':
   Date: '20140606'
   Filename: Bd_Ksteta,pi+pi-pi0=DecProdCut
@@ -874,6 +904,12 @@
 '11114017':
   Date: '20200327'
   Filename: Bd_phimumu=DecProdCut
+'11114018':
+  Date: '20200825'
+  Filename: Bd_ppbarmumu=DecProdCut
+'11114019':
+  Date: '20210128'
+  Filename: Bd_phimumu=PHSP,DecProdCut
 '11114022':
   Date: '20111013'
   Filename: Bd_rhomumu=MS,DecProdCut
@@ -895,6 +931,9 @@
 '11114035':
   Date: '20140725'
   Filename: Bd_PS,4mu=DecProdCut
+'11114036':
+  Date: '20210317'
+  Filename: Bd_aa2mumumumu,m=1GeV,t=1fs,DecProdCut
 '11114041':
   Date: '20120521'
   Filename: Bd_4mu=PHSP,DecProdCut
@@ -1042,6 +1081,9 @@
 '11116001':
   Date: '20140725'
   Filename: Bd_KstPS,4mu=DecProdCut
+'11116010':
+  Date: '20210210'
+  Filename: Bd_Kpipipimumu=DecProdCut
 '11116101':
   Date: '20140725'
   Filename: Bd_KSPS,4mu=DecProdCut
@@ -1054,6 +1096,9 @@
 '11122400':
   Date: '20160329'
   Filename: Bd_piee=DecProdCut
+'11123000':
+  Date: '20210320'
+  Filename: Bd_Ksttaue,3pi=DecProdCut,tauolababar
 '11124001':
   Date: '20040730'
   Filename: Bd_Kstee=DecProdCut
@@ -1114,6 +1159,9 @@
 '11124411':
   Date: '20190214'
   Filename: Bd_Ksteta,e+e-g=Dalitz,DecProdCut,TightCut60MeV
+'11126010':
+  Date: '20210210'
+  Filename: Bd_Kpipipiee=DecProdCut
 '11134000':
   Date: '20130925'
   Filename: Bd_etacKpi,pp=DecProdCut
@@ -1327,6 +1375,12 @@
 '11146031':
   Date: '20160514'
   Filename: Bd_JpsiphiKst,KKmumuKpi=DecProdCut
+'11146040':
+  Date: '20210210'
+  Filename: Bd_JpsiKpipipi,mm=DecProdCut
+'11146050':
+  Date: '20210217'
+  Filename: Bd_psi2SKpipipi,mm=DecProdCut
 '11146092':
   Date: '20181220'
   Filename: Bd_psi2Spipipipi,mm=phsp,DecProdCut,TightCut
@@ -1372,6 +1426,12 @@
 '11156000':
   Date: '20200607'
   Filename: Bd_psi2SKst,Jpsipipi,ee=DecProdCut
+'11156040':
+  Date: '20210210'
+  Filename: Bd_JpsiKpipipi,ee=DecProdCut
+'11156050':
+  Date: '20210217'
+  Filename: Bd_psi2SKpipipi,ee=DecProdCut
 '11160001':
   Date: '20161025'
   Filename: Bd_DstTauNu=DecProdCut,tauolababar
@@ -1561,6 +1621,12 @@
 '11164095':
   Date: '20141125'
   Filename: Bd_Ds2573K,D0K,Kpi=DecProdCut
+'11164096':
+  Date: '20201215'
+  Filename: Bd_Dst-pi+,D0pi,KK=DecProdCut
+'11164097':
+  Date: '20201215'
+  Filename: Bd_Dst-pi+,D0pi,pipi=DecProdCut
 '11164099':
   Date: '20110926'
   Filename: Bd_Ds-K+,KKpi
@@ -1813,6 +1879,9 @@
 '11166002':
   Date: '20200221'
   Filename: Bd_Dstpipipi,D0pi=DecProdCut
+'11166004':
+  Date: '20210325'
+  Filename: Bd_Lcpipip,pKpi=TightCut
 '11166005':
   Date: '20171123'
   Filename: Bd_D0phi,Kpipipi=DecProdCut
@@ -1858,6 +1927,33 @@
 '11166070':
   Date: '20140429'
   Filename: Bd_Lcpipip,pKpi=DecProdCut
+'11166071':
+  Date: '20201205'
+  Filename: Bd_D0Kpi,Kpipipi=BsqDalitz,DAmpGen,TightCut
+'11166072':
+  Date: '20201205'
+  Filename: Bd_D0Kpi,piKpipi=BsqDalitz,DAmpGen,TightCut
+'11166073':
+  Date: '20201204'
+  Filename: Bd_D0Kpi,pipipipi=BsqDalitz,DPHSP,TightCut
+'11166074':
+  Date: '20201206'
+  Filename: Bd_D0pipi,Kpipipi=BsqDalitz,DAmpGen,TightCut
+'11166075':
+  Date: '20201206'
+  Filename: Bd_D0pipi,piKpipi=BsqDalitz,DAmpGen,TightCut
+'11166076':
+  Date: '20201204'
+  Filename: Bd_D0pipi,pipipipi=BsqDalitz,DPHSP,TightCut
+'11166077':
+  Date: '20201206'
+  Filename: Bd_D0KK,Kpipipi=BsqDalitz,DAmpGen,TightCut
+'11166078':
+  Date: '20201206'
+  Filename: Bd_D0KK,piKpipi=BsqDalitz,DAmpGen,TightCut
+'11166079':
+  Date: '20201204'
+  Filename: Bd_D0KK,pipipipi=BsqDalitz,DPHSP,TightCut
 '11166080':
   Date: '20140707'
   Filename: Bd_D-ppbarpi,KKpi=DecProdCut
@@ -1897,6 +1993,12 @@
 '11166110':
   Date: '20200224'
   Filename: Bd_D0Kpi,KSKK=BsqDalitz,DDalitz,DecProdCut
+'11166111':
+  Date: '20201211'
+  Filename: Bd_D0Kpi,KSpipi=BsqDalitz,DDalitz,TightCut
+'11166112':
+  Date: '20201211'
+  Filename: Bd_D0Kpi,KSKK=BsqDalitz,DDalitz,TightCut
 '11166113':
   Date: '20141003'
   Filename: Bd_D0Kst,KSKK=B-SVS,D-PHSP,TightCut
@@ -1906,6 +2008,18 @@
 '11166116':
   Date: '20190512'
   Filename: Bd_D0Kst,KSKK=B-SVS,D-PHSP,TightCut,LooserCuts
+'11166117':
+  Date: '20201127'
+  Filename: Bd_D0pipi,KSpipi=BsqDalitz,DDalitz,TightCut
+'11166118':
+  Date: '20201127'
+  Filename: Bd_D0pipi,KSKK=BsqDalitz,DDalitz,TightCut
+'11166119':
+  Date: '20201127'
+  Filename: Bd_D0KK,KSpipi=BsqDalitz,DDalitz,TightCut
+'11166120':
+  Date: '20201127'
+  Filename: Bd_D0KK,KSKK=BsqDalitz,DDalitz,TightCut
 '11166121':
   Date: '20110305'
   Filename: Bd_D0rho0,KSpipi=DecProdCut
@@ -1972,6 +2086,33 @@
 '11166247':
   Date: '20171127'
   Filename: Bd_Dst0Kst0,D0gamma,Kpipipi=DecProdCut,HELAMP001
+'11166271':
+  Date: '20201206'
+  Filename: Bd_Dst0Kpi,D0gamma,Kpipipi=BsqDalitz,DAmpGen,TightCut
+'11166272':
+  Date: '20201206'
+  Filename: Bd_Dst0Kpi,D0gamma,piKpipi=BsqDalitz,DAmpGen,TightCut
+'11166273':
+  Date: '20201204'
+  Filename: Bd_Dst0Kpi,D0gamma,pipipipi=BsqDalitz,DPHSP,TightCut
+'11166274':
+  Date: '20201206'
+  Filename: Bd_Dst0pipi,D0gamma,Kpipipi=BsqDalitz,DAmpGen,TightCut
+'11166275':
+  Date: '20201206'
+  Filename: Bd_Dst0pipi,D0gamma,piKpipi=BsqDalitz,DAmpGen,TightCut
+'11166276':
+  Date: '20201204'
+  Filename: Bd_Dst0pipi,D0gamma,pipipipi=BsqDalitz,DPHSP,TightCut
+'11166277':
+  Date: '20201206'
+  Filename: Bd_Dst0KK,D0gamma,Kpipipi=BsqDalitz,DAmpGen,TightCut
+'11166278':
+  Date: '20201206'
+  Filename: Bd_Dst0KK,D0gamma,piKpipi=BsqDalitz,DAmpGen,TightCut
+'11166279':
+  Date: '20201204'
+  Filename: Bd_Dst0KK,D0gamma,pipipipi=BsqDalitz,DPHSP,TightCut
 '11166310':
   Date: '20160913'
   Filename: Bd_Dst0rho0,D0gamma,KSKK=TightCut
@@ -1984,6 +2125,24 @@
 '11166321':
   Date: '20190604'
   Filename: Bd_Dst0rho0,D0gamma,KSpipi=TightCut,NoNeutralCut
+'11166330':
+  Date: '20201202'
+  Filename: Bd_Dst0Kpi,D0gamma,KSpipi=BsqDalitz,DDalitz,TightCut
+'11166331':
+  Date: '20201202'
+  Filename: Bd_Dst0Kpi,D0gamma,KSKK=BsqDalitz,DDalitz,TightCut
+'11166332':
+  Date: '20201202'
+  Filename: Bd_Dst0pipi,D0gamma,KSpipi=BsqDalitz,DDalitz,TightCut
+'11166333':
+  Date: '20201202'
+  Filename: Bd_Dst0pipi,D0gamma,KSKK=BsqDalitz,DDalitz,TightCut
+'11166334':
+  Date: '20201202'
+  Filename: Bd_Dst0KK,D0gamma,KSpipi=BsqDalitz,DDalitz,TightCut
+'11166335':
+  Date: '20201202'
+  Filename: Bd_Dst0KK,D0gamma,KSKK=BsqDalitz,DDalitz,TightCut
 '11166400':
   Date: '20130315'
   Filename: Bd_DstTauNu,3pipi03pinu=DecProdCut,tightcut
@@ -1999,6 +2158,33 @@
 '11166447':
   Date: '20171127'
   Filename: Bd_Dst0Kst0,D0pi0,Kpipipi=DecProdCut,HELAMP001
+'11166471':
+  Date: '20201206'
+  Filename: Bd_Dst0Kpi,D0pi0,Kpipipi=BsqDalitz,DAmpGen,TightCut
+'11166472':
+  Date: '20201206'
+  Filename: Bd_Dst0Kpi,D0pi0,piKpipi=BsqDalitz,DAmpGen,TightCut
+'11166473':
+  Date: '20201204'
+  Filename: Bd_Dst0Kpi,D0pi0,pipipipi=BsqDalitz,DPHSP,TightCut
+'11166474':
+  Date: '20201206'
+  Filename: Bd_Dst0pipi,D0pi0,Kpipipi=BsqDalitz,DAmpGen,TightCut
+'11166475':
+  Date: '20201206'
+  Filename: Bd_Dst0pipi,D0pi0,piKpipi=BsqDalitz,DAmpGen,TightCut
+'11166476':
+  Date: '20201204'
+  Filename: Bd_Dst0pipi,D0pi0,pipipipi=BsqDalitz,DPHSP,TightCut
+'11166477':
+  Date: '20201206'
+  Filename: Bd_Dst0KK,D0pi0,Kpipipi=BsqDalitz,DAmpGen,TightCut
+'11166478':
+  Date: '20201206'
+  Filename: Bd_Dst0KK,D0pi0,piKpipi=BsqDalitz,DAmpGen,TightCut
+'11166479':
+  Date: '20201204'
+  Filename: Bd_Dst0KK,D0pi0,pipipipi=BsqDalitz,DPHSP,TightCut
 '11166501':
   Date: '20110305'
   Filename: Bd_Dst-rho+,KSpipi=DecProdCut
@@ -2011,6 +2197,24 @@
 '11166520':
   Date: '20160913'
   Filename: Bd_Dst0rho0,D0pi0,KSpipi=TightCut
+'11166530':
+  Date: '20201202'
+  Filename: Bd_Dst0Kpi,D0pi0,KSpipi=BsqDalitz,DDalitz,TightCut
+'11166531':
+  Date: '20201202'
+  Filename: Bd_Dst0Kpi,D0pi0,KSKK=BsqDalitz,DDalitz,TightCut
+'11166532':
+  Date: '20201202'
+  Filename: Bd_Dst0pipi,D0pi0,KSpipi=BsqDalitz,DDalitz,TightCut
+'11166533':
+  Date: '20201202'
+  Filename: Bd_Dst0pipi,D0pi0,KSKK=BsqDalitz,DDalitz,TightCut
+'11166534':
+  Date: '20201202'
+  Filename: Bd_Dst0KK,D0pi0,KSpipi=BsqDalitz,DDalitz,TightCut
+'11166535':
+  Date: '20201202'
+  Filename: Bd_Dst0KK,D0pi0,KSKK=BsqDalitz,DDalitz,TightCut
 '11166710':
   Date: '20190604'
   Filename: Bd_Dst0rho0,D0pi0,KSKK=TightCut,NoNeutralCut
@@ -2140,6 +2344,9 @@
 '11196018':
   Date: '20200629'
   Filename: Bd_D-Ds+,Kpi,pipipi=DDalitz,TightCut
+'11196019':
+  Date: '20201020'
+  Filename: Bd_D0D0Kst0,Kpi=TightCut
 '11196020':
   Date: '20140808'
   Filename: Bd_D0DK,KPi,KPiPi=sqDalitz,DecProdCut
@@ -2218,6 +2425,12 @@
 '11196084':
   Date: '20180612'
   Filename: Bd_DstDs,D0pi,pipipi=DDALITZ,DecProdCut
+'11196085':
+  Date: '20201201'
+  Filename: Bd_Dst-Dst+,D0pi-,Kpi=DecProdCut,HELAMP100
+'11196086':
+  Date: '20201201'
+  Filename: Bd_Dst-Dst+,D0pi-,Kpi=DecProdCut,HELAMP010
 '11196091':
   Date: '20190628'
   Filename: Bd_DstDs,D0pi,KKpi=DDALITZ,DecProdCut,WithMinP
@@ -2266,6 +2479,12 @@
 '11196412':
   Date: '20160704'
   Filename: Bd_Dst0DstK,D0pi0,Kpi,PHSP=TightCut
+'11196413':
+  Date: '20201020'
+  Filename: Bd_Dst0D0Kst0,Kpi=TightCut
+'11196414':
+  Date: '20201020'
+  Filename: Bd_Dst0Dst0Kst0,Kpi=TightCut
 '11196420':
   Date: '20160704'
   Filename: Bd_Dst0Dst0Kst0,D0pi0,D0pi0,Kpi=TightCut
@@ -2296,18 +2515,45 @@
 '11198005':
   Date: '20190604'
   Filename: Bd_DDstKst0,Kpipi,Kpi=TightCut
+'11198006':
+  Date: '20201020'
+  Filename: Bd_DDKst0,Kpipi,Kpipi=TightCut
+'11198007':
+  Date: '20201020'
+  Filename: Bd_D0DK,K3Pi,KPiPi=TightCut
+'11198008':
+  Date: '20210210'
+  Filename: Bd_D0D0Kst0,K3Pi=TightCut,AMPGEN
+'11198009':
+  Date: '20210210'
+  Filename: Bd_D0D0Kst0,K3PiandKPi=TightCut,PHSP
 '11198010':
   Date: '20151016'
   Filename: Bd_DstD,D0K3pi,Dkpipi=CPV,TightCut
 '11198011':
   Date: '20170419'
   Filename: Bd_DstD,D0K3pi,DKKpi=CPV,DecProdCut
+'11198012':
+  Date: '20210209'
+  Filename: Bd_DstD0K,K3Pi=TightCut,AMPGEN
+'11198013':
+  Date: '20210209'
+  Filename: Bd_DstD0K,K3PiandKPi=TightCut,PHSP
+'11198015':
+  Date: '20201103'
+  Filename: Bd_D0Dspi,K3Pi,KKPi=TightCut
 '11198020':
   Date: '20160706'
   Filename: Bd_DstDstKst0,D0Pi,D0Pi,Kpi=TightCut
 '11198021':
   Date: '20160706'
   Filename: Bd_DstDstKpi,D0Pi,D0Pi=TightCut
+'11198022':
+  Date: '20201020'
+  Filename: Bd_DstDstKst0,Kpi,Kpi=TightCut
+'11198025':
+  Date: '20201103'
+  Filename: Bd_D0Dspi,K3Pi,KKPi=sqDalitz,TightCut
 '11198030':
   Date: '20171219'
   Filename: Bd_D0DK,K3Pi,KPiPi=DecProdCut
@@ -2317,6 +2563,9 @@
 '11198034':
   Date: '20161011'
   Filename: Bd_DstD0K,D0pi_Kpi,K3pi=sqDalitz,DecProdCut
+'11198035':
+  Date: '20201103'
+  Filename: Bd_D0Dspi,K3Pi,KKPi=sqDalitz13,TightCut
 '11198040':
   Date: '20171219'
   Filename: Bd_D0DK,K3Pi,KPiPi=sqDalitz,DecProdCut
@@ -2326,6 +2575,9 @@
 '11198044':
   Date: '20161011'
   Filename: Bd_DstD0K,D0pi_Kpi,K3pi=sqDalitz13,DecProdCut
+'11198045':
+  Date: '20201103'
+  Filename: Bd_D0Dspi,K3Pi,KKPi=sqDalitz23,TightCut
 '11198050':
   Date: '20171219'
   Filename: Bd_D0DK,K3Pi,KPiPi=sqDalitz13,DecProdCut
@@ -2350,6 +2602,12 @@
 '11198090':
   Date: '20190304'
   Filename: Bd_Ds2536D,DKpi,Kpipi=DecProdCut
+'11198098':
+  Date: '20210210'
+  Filename: Bd_D0D0Kpi,K3PiandKPi=TightCut,PHSP
+'11198099':
+  Date: '20210210'
+  Filename: Bd_D0D0Kpi,K3Pi=TightCut,AMPGEN
 '11198112':
   Date: '20140808'
   Filename: Bd_DDKS,KPiPi,KPiPi,PiPi=DecProdCut
@@ -2431,6 +2689,9 @@
 '11204301':
   Date: '20190106'
   Filename: Bd_Kspi+pi-gamma=TightCut,mKshhCut,K1cocktail
+'11204302':
+  Date: '20201119'
+  Filename: Bd_Kspi+pi-gamma=TightCut,mKshhCut,KSVtxCut,K1cocktail
 '11204410':
   Date: '20160311'
   Filename: Bd_K1phi,Kpipi0=mK1270,DecProdCut
@@ -2461,9 +2722,15 @@
 '11246110':
   Date: '20200423'
   Filename: Bd_JpsiKspi+pi-,mm,K1cocktail=DecProdCut
+'11246121':
+  Date: '20201119'
+  Filename: Bd_JpsiKspipi,mm-=TightCut,KSVtxCut,K1cocktail
 '11246130':
   Date: '20200310'
   Filename: Bd_ccKS,Jpsipipi,mm=TightCut
+'11246162':
+  Date: '20201119'
+  Filename: Bd_JpsiKsPhi,mm=TightCut,KSVtxCut,cocktail
 '11246502':
   Date: '20121001'
   Filename: Bd_JpsiKspipipi,mm=DecProdCut,pCut1600MeV
@@ -2914,6 +3181,12 @@
 '11473025':
   Date: '20200503'
   Filename: Bd_MuXMajoranaNeutrino2MuX,m=3000MeV,t=1000ps,CC,DecProdCut
+'11493220':
+  Date: '20200910'
+  Filename: Bd_DsX,KKpi=cocktail,TightCut,ACPKKCuts
+'11493300':
+  Date: '20200910'
+  Filename: Bd_DsX,KSK=cocktail,TightCut,ACPKKCuts
 '11494010':
   Date: '20191210'
   Filename: Bd_D0D0bar,hh,hhhh=AmpGen,MINT,DecProdCut,pCut1600MeV
@@ -2929,12 +3202,18 @@
 '11496002':
   Date: '20190707'
   Filename: Bd_Dst+D0KX=TightCuts,mD0D0
+'11496003':
+  Date: '20201105'
+  Filename: Bd_Dst+D0KX=TightCuts2,mD0D0
 '11496400':
   Date: '20190301'
   Filename: Bd_D0XcIncl,Kpi,3piIncl=TightCut
 '11496402':
   Date: '20190301'
   Filename: Bd_DpXcIncl,Kpi,3piIncl=TightCut
+'11496501':
+  Date: '20201110'
+  Filename: Bd_D0D0KSX=TightCuts2,mD0D0
 '11502020':
   Date: '20170515'
   Filename: Bd_Ksttautau,3pi3pi=DecProdCut,TightCut2,tauolababar
@@ -2944,6 +3223,9 @@
 '11508000':
   Date: '20140612'
   Filename: Bd_Ksttautau,3pi3pi=DecProdCut,TightCut
+'11511001':
+  Date: '20200812'
+  Filename: Bd_Xumunu=TightCut,ForB2RhoMuNu
 '11512003':
   Date: '20120113'
   Filename: Bd_pi+pi-,mm=TightCut
@@ -2965,6 +3247,9 @@
 '11514000':
   Date: '20150330'
   Filename: Bd_Ksttautau,mumu=DecProdCut,TightCut
+'11514001':
+  Date: '20210224'
+  Filename: Bd_Ksttautau,mumu=DecProdCut
 '11514010':
   Date: '20150330'
   Filename: Bd_mutau,pipipinu=DecProdCut,TightCut
@@ -3019,6 +3304,9 @@
 '11563020':
   Date: '20160201'
   Filename: Bd_DstTauNu,Tau2PiPiPiPi0Nu=TAUOLA,pi0notreqinacc,DecProdCut
+'11563400':
+  Date: '20210421'
+  Filename: Bd_Dststtaunu,D0Dst=cocktail,3pinu3pipi0nu,tauolababar,TightCut
 '11563410':
   Date: '20180202'
   Filename: Bd_Dst-taunu,D-pi0,D-gamma,Kpipi,3pinu,tauolababar,chargedInAcc=DecProdCut
@@ -3118,6 +3406,12 @@
 '11574091':
   Date: '20190215'
   Filename: Bd_Dst+munu=PHSP,TightCut,tighter
+'11574092':
+  Date: '20210121'
+  Filename: Bd_Dst2460munu,D0pi,Kenu=DecProdCut,HighVisMass,DiHadronMass,EvtGenDecayWithCut
+'11574093':
+  Date: '20210121'
+  Filename: Bd_Dst2460enu,D0pi,Kmunu=DecProdCut,HighVisMass,DiHadronMass,EvtGenDecayWithCut
 '11574200':
   Date: '20141213'
   Filename: Bd_Dmunu,etapi,pipig=DecProdCut,DmuInAcc
@@ -3151,6 +3445,9 @@
 '11576030':
   Date: '20191210'
   Filename: Bd_Dstmunu,Kpipipi=AMPGEN,TightCut
+'11576500':
+  Date: '20210309'
+  Filename: Bd_Dstmunu=cocktail,D0_KSpipipi0=TightCut,PHSP
 '11584020':
   Date: '20170113'
   Filename: Bd_Denu,Kstenu=DecProdCut
@@ -3169,18 +3466,33 @@
 '11584031':
   Date: '20190219'
   Filename: Bd_Dst+enu=PHSP,TightCut,tighter
-'11584040':
-  Date: '20180619'
+'11584041':
+  Date: '20201112'
   Filename: Bd_D0Xenu,D0=cocktail
 '11584050':
   Date: '20190215'
   Filename: Bd_DststXenu,Dst+=cocktail,TightCut,tighter
+'11584100':
+  Date: '20210329'
+  Filename: Bd_Denu,KSenu=TightCut,EvtGenDecayWithCut
+'11584101':
+  Date: '20210312'
+  Filename: Bd_Denu,KSpi=TightCut
+'11584110':
+  Date: '20210312'
+  Filename: Bd_Dpi,KSenu=TightCut
 '11584401':
   Date: '20121207'
   Filename: Bd_Dmunu,pi+pi0,eeg=DmuInAcc
+'11666000':
+  Date: '20210421'
+  Filename: Bd_Dststtaunu,D-=cocktail,3pinu3pipi0nu,tauolababar,TightCut
 '11674400':
   Date: '20140628'
   Filename: Bd_Dststmunu,D0=CocktailHigher,TightCut
+'11674401':
+  Date: '20200928'
+  Filename: Bd_Dststmunu,D0=CocktailHigher,RDstar,TightCut
 '11676000':
   Date: '20130317'
   Filename: Bd_Dstmunu,Kpipipi=hqet,MINT
@@ -3193,6 +3505,9 @@
 '11676011':
   Date: '20190215'
   Filename: Bd_Dststmunu,Dst+=CocktailHigher,TightCut,tighter
+'11676012':
+  Date: '20200928'
+  Filename: Bd_Dststmunu,Dst+=CocktailHigher,RDstar,TightCut
 '11686000':
   Date: '20190215'
   Filename: Bd_Dststenu,Dst+=CocktailHigher,TightCut,tighter
@@ -3241,6 +3556,12 @@
 '11716010':
   Date: '20141202'
   Filename: Bd_Ksttaumu,3pi=DecProdCut
+'11716400':
+  Date: '20210317'
+  Filename: Bd_Ksttautau,3pipi0mu=DecProdCut,TightCut
+'11716402':
+  Date: '20210317'
+  Filename: Bd_Ksttautau,3pipi0mu=DecProdCut,TightCut,tauolababar
 '11746000':
   Date: '20200613'
   Filename: Bd_psi2SKst,tautau,3pimu=DecProdCut,TightCut,tauolababar
@@ -3259,9 +3580,6 @@
 '11774002':
   Date: '20170325'
   Filename: Bd_Dstp2400munu,DsKS0,KKpi=LHCbAcceptance
-'11774003':
-  Date: '20170920'
-  Filename: Bd_Dstp2400munu,DsKS0,KKpi=mu3hInAcc
 '11774004':
   Date: '20191107'
   Filename: Bd_DstX,cocktail,D0pi,Kpi=TightCut
@@ -3271,6 +3589,12 @@
 '11774006':
   Date: '20200129'
   Filename: Bd_DstX,cocktail,D0pi,pipi=TightCut
+'11774010':
+  Date: '20200914'
+  Filename: Bd_D+X,Kpipi=cocktail,TightCut,ACPKKCuts
+'11774110':
+  Date: '20200914'
+  Filename: Bd_D+X,KSpi=cocktail,TightCut,ACPKKCuts
 '11774400':
   Date: '20131118'
   Filename: Bd_Dst-3pipi0,munu=DecProdCut,TightCut
@@ -3304,12 +3628,12 @@
 '11873030':
   Date: '20130418'
   Filename: Bd_Dststtaunu,D0=cocktail,TightCuts
-'11873040':
-  Date: '20200317'
-  Filename: Bd_D0Xmunu,D0=cocktail,TightCut,ForB2RhoMuNu
 '11873041':
   Date: '20200319'
   Filename: Bd_D+Xmunu,D+=cocktail,TightCut,ForB2RhoMuNu
+'11873042':
+  Date: '20201112'
+  Filename: Bd_D0Xmunu,D0=cocktail,TightCut,ForB2RhoMuNu
 '11874001':
   Date: '20060714'
   Filename: Bd_Dstmunu,Kpi=cocktail,D0muInAcc
@@ -3382,15 +3706,18 @@
 '11874080':
   Date: '20130418'
   Filename: Bd_Dststtaunu,Dst+=cocktail,TightCuts
-'11874090':
-  Date: '20150409'
-  Filename: Bd_D0Xmunu,D0=cocktail,DecProdCut
-'11874091':
-  Date: '20150721'
+'11874092':
+  Date: '20201008'
+  Filename: Bd_D0Xmunu,D0=cocktail,pipi,D0muInAcc
+'11874094':
+  Date: '20201112'
   Filename: Bd_D0Xmunu,D0=cocktail
 '11874110':
   Date: '20190821'
   Filename: Bd_LcpX,pmuX=TightCut
+'11874200':
+  Date: '20201207'
+  Filename: Bd_Dstp2400munu,DsKS0,KKpi=mu3hInAcc
 '11874271':
   Date: '20190215'
   Filename: Bd_Dst+DsX,taunu=cocktail,TightCut,tighter
@@ -3400,12 +3727,21 @@
 '11874401':
   Date: '20150721'
   Filename: Bd_D+Xmunu,D+=cocktail
+'11874402':
+  Date: '20210412'
+  Filename: Bd_D+munu,pipipi=cocktail,Dalitz,TightCut,ForB2RhoMuNu
 '11874414':
   Date: '20120308'
   Filename: Bd_Dstmunu,pipi=cocktail,hqet,D0muInAcc,BRCorr1
 '11874424':
   Date: '20120308'
   Filename: Bd_Dstmunu,KK=cocktail,hqet,D0muInAcc,BRCorr1
+'11874430':
+  Date: '20200928'
+  Filename: Bd_Dststmunu,D0=cocktail,RDstar,TightCut
+'11874440':
+  Date: '20200928'
+  Filename: Bd_Dststtaunu,D0=cocktail,RDstar,TightCut
 '11874650':
   Date: '20190215'
   Filename: Bd_Dst+DX,muX=cocktail,TightCut,tighter
@@ -3442,15 +3778,15 @@
 '11876052':
   Date: '20200807'
   Filename: Bd_Dstmunu,piKpipi=cocktail,hqet,AMPGENv2,TightCut
-'11876060':
-  Date: '20170315'
-  Filename: Bd_D0Xmunu,D0=cocktail,LHCbAcceptance
-'11876061':
-  Date: '20170315'
-  Filename: Bd_D0Xmunu,D0_K3pi=LHCbAcceptance
 '11876062':
   Date: '20200807'
   Filename: Bd_Dstmunu,Kpipipi=cocktail,hqet,PhSp,TightCut
+'11876063':
+  Date: '20170315'
+  Filename: Bd_D0Xmunu,D0=cocktail,LHCbAcceptance
+'11876064':
+  Date: '20170315'
+  Filename: Bd_D0Xmunu,D0_K3pi=LHCbAcceptance
 '11876070':
   Date: '20190121'
   Filename: Bd_D0pitaunu,tau_mu,D0_4h=cocktail,mu4hinAcc
@@ -3484,6 +3820,9 @@
 '11876133':
   Date: '20200603'
   Filename: Bd_Dstmunu,KSKK=res,cocktail,hqet,TightCut,LooserCuts2,BRcorr1
+'11876200':
+  Date: '20201207'
+  Filename: Bd_DsstDst,gDsgD,KKpimunuX=cocktail,mu3hInAcc
 '11876202':
   Date: '20170303'
   Filename: Bd_DsstDst,DsgammaDpi,KKpimunuX=cocktail,LHCbAcceptance
@@ -3499,6 +3838,18 @@
 '11884650':
   Date: '20190215'
   Filename: Bd_Dst+DX,eX=cocktail,TightCut,tighter
+'11894200':
+  Date: '20200811'
+  Filename: Bd_D0DsX,taunu=cocktail,RDstar,TightCut
+'11894210':
+  Date: '20200811'
+  Filename: Bd_Dst+DsX,taunu=cocktail,RDstar,TightCut
+'11894600':
+  Date: '20200811'
+  Filename: Bd_D0DX,muX=cocktail,RDstar,TightCut
+'11894610':
+  Date: '20200811'
+  Filename: Bd_Dst+DX,muX=cocktail,RDstar,TightCut
 '11896204':
   Date: '20190719'
   Filename: Bd_DsstDst,DsgammaDpi,KKpimunuX=cocktail,mu3hInAcc,TightCut
@@ -3784,6 +4135,9 @@
 '12103405':
   Date: '20181212'
   Filename: Bu_a1+pi0_rho0pi+=VVS_PWAVE,DecProdCut
+'12103406':
+  Date: '20200922'
+  Filename: Bu_rho0rho+,pi+pi-pi+pi0=DecProdCut,PHSP,Charmless
 '12103411':
   Date: '20120819'
   Filename: Bu_KstKK,Kpi0=DecProdCut
@@ -3793,6 +4147,12 @@
 '12103421':
   Date: '20111013'
   Filename: Bu_Kstpipi,Kpi0=DecProdCut
+'12103422':
+  Date: '20200922'
+  Filename: Bu_Kst0rho+,K+pi-pi+pi0=DecProdCut,PHSP,Charmless
+'12103423':
+  Date: '20200922'
+  Filename: Bu_rho0Kst+,K+pi-pi+pi0=DecProdCut,PHSP,Charmless
 '12103431':
   Date: '20120206'
   Filename: Bu_Kstpp,Kpi0=DecProdCut
@@ -3802,6 +4162,15 @@
 '12103442':
   Date: '20130911'
   Filename: Bu_KKKpi0=DecProdCut,PHSP
+'12103443':
+  Date: '20200922'
+  Filename: Bu_phirho+,K+K-pi+pi0=DecProdCut,PHSP,Charmless
+'12103444':
+  Date: '20200922'
+  Filename: Bu_Kst0Kst+,K+K-pi+pi0=DecProdCut,PHSP,Charmless
+'12103445':
+  Date: '20200922'
+  Filename: Bu_phiKst+,K+K-K+pi0=DecProdCut,PHSP,Charmless
 '12103450':
   Date: '20150218'
   Filename: Bu_phiKeta,gg=PHSP,DecProdCut
@@ -3964,9 +4333,15 @@
 '12105160':
   Date: '20160524'
   Filename: Bu_KSKKpi=DecProdCut
+'12105161':
+  Date: '20210211'
+  Filename: Bu_KsKKpip=DecProdCut,TightCutLowKsKpiMass
 '12105170':
   Date: '20161111'
   Filename: Bu_KSKSK=DecProdCut
+'12105182':
+  Date: '20210312'
+  Filename: Bu_Kstpipi,KSpi=TightCut
 '12105300':
   Date: '20141020'
   Filename: Bu_phiphiKst+,K+pi0=DecProdCut
@@ -4291,6 +4666,9 @@
 '12115179':
   Date: '20190226'
   Filename: Bu_Kstmumu,KSpi=PHSP,flatq2,DecProdCut,TightCut
+'12115190':
+  Date: '20210413'
+  Filename: Bu_Lambdapbarmumu=DecProdCut
 '12123001':
   Date: '20150120'
   Filename: Bu_Kee=btosllball,DecProdCut
@@ -4387,6 +4765,9 @@
 '12125133':
   Date: '20160329'
   Filename: Bu_KsteeSS,KSpi=PHSP,DecProdCut
+'12125190':
+  Date: '20210413'
+  Filename: Bu_Lambdapbaree=DecProdCut
 '12133001':
   Date: '20111112'
   Filename: Bu_JpsiK,pp=DecProdCut
@@ -4636,6 +5017,9 @@
 '12145151':
   Date: '20200404'
   Filename: Bu_JpsiKSpi,mm=XLL,DecProdCut
+'12145152':
+  Date: '20201119'
+  Filename: Bu_JpsiKSpi,mm=XLL,TightCut,KSVtxCut
 '12145201':
   Date: '20131018'
   Filename: Bu_X4260K,X3872g,Jpsirho,mm=DecProdCut
@@ -4693,6 +5077,9 @@
 '12145450':
   Date: '20200504'
   Filename: Bu_psi2SKst,Jpsipipi,mm=DecProdCut
+'12145451':
+  Date: '20201209'
+  Filename: Bu_psi2SKst,Jpsipipi,mm=TightCut
 '12147102':
   Date: '20121001'
   Filename: Bu_JpsiKspipipi,mm=DecProdCut,pCut1600MeV
@@ -4741,6 +5128,9 @@
 '12155110':
   Date: '20170302'
   Filename: Bu_psi2SKst,ee=DecProdCut
+'12155111':
+  Date: '20210413'
+  Filename: Bu_JpsipLambda,ee=DecProdCut
 '12160400':
   Date: '20161025'
   Filename: Bu_DststTauNu,3pipi0,3pinu=cocktail,TightCut,tauolababar
@@ -5530,6 +5920,12 @@
 '12173000':
   Date: '20150318'
   Filename: Bu_MuD0MajoranaNeutrino2MuPi,m=3000MeV,t=10ps,DecProdCut
+'12173010':
+  Date: '20210119'
+  Filename: Bu_Dst0Pi,mm=DecProdCut
+'12173011':
+  Date: '20210119'
+  Filename: Bu_Dst0K,mm=DecProdCut
 '12175002':
   Date: '20160329'
   Filename: Bu_DstemuSS,D0pi,Kpi=DecProdCut
@@ -5686,6 +6082,9 @@
 '12197005':
   Date: '20140808'
   Filename: Bu_DDpi,KPiPi,KPiPi=sqDalitz,DecProdCut
+'12197008':
+  Date: '20201020'
+  Filename: Bu_D0D0K,K3Pi,KPi=TightCut
 '12197009':
   Date: '20170619'
   Filename: Bu_D0D0K,K3Pi,KPi=DecProdCut
@@ -5716,9 +6115,21 @@
 '12197022':
   Date: '20160725'
   Filename: Bu_DstD0Kst0,Kpi,Kpi=TightCut
+'12197023':
+  Date: '20201020'
+  Filename: Bu_DD0Kst0,Kpipi,Kpi=TightCut
+'12197024':
+  Date: '20201020'
+  Filename: Bu_DstD0Kst0,Kpi,Kpi=TightCut2
 '12197025':
   Date: '20140829'
   Filename: Bu_DDpi,KPiPi,KPiPi=sqDalitz23,DecProdCut
+'12197026':
+  Date: '20210209'
+  Filename: Bu_D0D0K,K3Pi=TightCut,AMPGEN
+'12197027':
+  Date: '20210209'
+  Filename: Bu_D0D0K,K3PiandKPi=TightCut,PHSP
 '12197028':
   Date: '20140808'
   Filename: Bu_DsDspi,KKPi,KKPi=sqDalitz,DecProdCut
@@ -5899,30 +6310,72 @@
 '12197401':
   Date: '20190604'
   Filename: Bu_DstDst0Kst0,Kpipi,Kpi=TightCut
+'12197410':
+  Date: '20201020'
+  Filename: Bu_DDst0Kst0,Kpipi,Kpi=TightCut
 '12197420':
   Date: '20160705'
   Filename: Bu_Dst0DstKst0,D0pi0,D0pi,Kpi=TightCut
 '12197421':
   Date: '20160705'
   Filename: Bu_Dst0DstKpi,D0pi0,D0pi=TightCut
+'12197422':
+  Date: '20201020'
+  Filename: Bu_DstDst0Kst0,Kpi,Kpi=TightCut
 '12199001':
   Date: '20161011'
   Filename: Bu_Dst+D-K,K2pi,D0pi_K3pi=phsp,DecProdCut
 '12199002':
   Date: '20161011'
   Filename: Bu_Dst-D+K,K2pi,D0pi_K3pi=phsp,DecProdCut
+'12199013':
+  Date: '20201106'
+  Filename: Bu_DstDstK,D0Pi,K3Pi,D0Pi,K3Pi=TightCut
+'12199014':
+  Date: '20201106'
+  Filename: Bu_DstDstK,D0Pi,KPi,D0Pi,K3Pi=TightCut
+'12199015':
+  Date: '20201106'
+  Filename: Bu_DstDstK,D0Pi,K3Pi,D0Pi,KPi=TightCut
+'12199023':
+  Date: '20201106'
+  Filename: Bu_DstDstK,D0Pi,K3Pi,D0Pi,K3Pi=sqDalitz,TightCut
+'12199024':
+  Date: '20201106'
+  Filename: Bu_DstDstK,D0Pi,KPi,D0Pi,K3Pi=sqDalitz,TightCut
+'12199025':
+  Date: '20201106'
+  Filename: Bu_DstDstK,D0Pi,K3Pi,D0Pi,KPi=sqDalitz,TightCut
 '12199031':
   Date: '20161011'
   Filename: Bu_Dst+D-K,K2pi,D0pi_K3pi=sqDalitz,DecProdCut
 '12199032':
   Date: '20161011'
   Filename: Bu_Dst-D+K,K2pi,D0pi_K3pi=sqDalitz,DecProdCut
+'12199033':
+  Date: '20201106'
+  Filename: Bu_DstDstK,D0Pi,K3Pi,D0Pi,K3Pi=sqDalitz13,TightCut
+'12199034':
+  Date: '20201106'
+  Filename: Bu_DstDstK,D0Pi,KPi,D0Pi,K3Pi=sqDalitz13,TightCut
+'12199035':
+  Date: '20201106'
+  Filename: Bu_DstDstK,D0Pi,K3Pi,D0Pi,KPi=sqDalitz13,TightCut
 '12199041':
   Date: '20161011'
   Filename: Bu_Dst+D-K,K2pi,D0pi_K3pi=sqDalitz13,DecProdCut
 '12199042':
   Date: '20161011'
   Filename: Bu_Dst-D+K,K2pi,D0pi_K3pi=sqDalitz13,DecProdCut
+'12199043':
+  Date: '20201106'
+  Filename: Bu_DstDstK,D0Pi,K3Pi,D0Pi,K3Pi=sqDalitz23,TightCut
+'12199044':
+  Date: '20201106'
+  Filename: Bu_DstDstK,D0Pi,KPi,D0Pi,K3Pi=sqDalitz23,TightCut
+'12199045':
+  Date: '20201106'
+  Filename: Bu_DstDstK,D0Pi,K3Pi,D0Pi,KPi=sqDalitz23,TightCut
 '12199051':
   Date: '20161011'
   Filename: Bu_Dst+D-K,K2pi,D0pi_K3pi=sqDalitz23,DecProdCut
@@ -5941,6 +6394,30 @@
 '12199064':
   Date: '20170619'
   Filename: Bu_D0D0K,K3Pi,K3Pi=sqDalitz23,DecProdCut
+'12199100':
+  Date: '20201209'
+  Filename: Bu_D0DKS,K3Pi,KPiPi,PiPi=DecProdCut
+'12199101':
+  Date: '20201209'
+  Filename: Bu_D0DKS,K3Pi,KPiPi,PiPi=TightCut
+'12199120':
+  Date: '20201209'
+  Filename: Bu_D0DKS,K3Pi,KPiPi,PiPi=sqDalitz,DecProdCut
+'12199121':
+  Date: '20201209'
+  Filename: Bu_D0DKS,K3Pi,KPiPi,PiPi=sqDalitz,TightCut
+'12199130':
+  Date: '20201209'
+  Filename: Bu_D0DKS,K3Pi,KPiPi,PiPi=sqDalitz13,DecProdCut
+'12199131':
+  Date: '20201209'
+  Filename: Bu_D0DKS,K3Pi,KPiPi,PiPi=sqDalitz13,TightCut
+'12199140':
+  Date: '20201209'
+  Filename: Bu_D0DKS,K3Pi,KPiPi,PiPi=sqDalitz23,DecProdCut
+'12199141':
+  Date: '20201209'
+  Filename: Bu_D0DKS,K3Pi,KPiPi,PiPi=sqDalitz23,TightCut
 '12203001':
   Date: '20110909'
   Filename: Bu_pi+K-K+=res,DecProdCut
@@ -6088,6 +6565,9 @@
 '12245054':
   Date: '20200423'
   Filename: Bu_JpsiKpipi,mm,K1cocktail=DecProdCut
+'12245071':
+  Date: '20201201'
+  Filename: Bu_psi2SKpipi,mm=resCocktail,TightCut
 '12245073':
   Date: '20180527'
   Filename: Bu_JpsiKpipi,mm=DecProdCut,K1cocktail
@@ -6418,6 +6898,24 @@
 '12297274':
   Date: '20171024'
   Filename: Bu_DstDspi,D0Pi,KKPi,Dpi,nrDsstar=DecProdCut
+'12297284':
+  Date: '20210105'
+  Filename: Bu_DsDsstK,KKPi,KKPi=PHSP,TightCut
+'12297288':
+  Date: '20210105'
+  Filename: Bu_DsstDsK,KKPi,KKPi=PHSP,TightCut
+'12297292':
+  Date: '20210105'
+  Filename: Bu_DsstDsstK,KKPi,KKPi=PHSP,TightCut
+'12297297':
+  Date: '20210105'
+  Filename: Bu_DsDsstK,KKPi,KKPi=PHSP,DecProdCut
+'12297298':
+  Date: '20210105'
+  Filename: Bu_DsstDsK,KKPi,KKPi=PHSP,DecProdCut
+'12297299':
+  Date: '20210105'
+  Filename: Bu_DsstDsstK,KKPi,KKPi=PHSP,DecProdCut
 '12297411':
   Date: '20200501'
   Filename: Bu_D0DKst0,3piX=cocktail,TightCut
@@ -6685,12 +7183,18 @@
 '12495402':
   Date: '20120208'
   Filename: Bu_DstDst0=DecProdCut
+'12495403':
+  Date: '20201110'
+  Filename: Bu_D0D0KX=TightCuts2,mD0D0
 '12495410':
   Date: '20190301'
   Filename: Bu_D0XcIncl,Kpi,3piIncl=TightCut
 '12495600':
   Date: '20191213'
   Filename: B+_excitedDstDsX,Ds2Xa1=TightCut
+'12497101':
+  Date: '20201105'
+  Filename: Bu_Dst+D0KSX=TightCuts2,mD0D0
 '12497402':
   Date: '20190301'
   Filename: Bu_DpXcIncl,Kpi,3piIncl=TightCut
@@ -6703,15 +7207,24 @@
 '12511002':
   Date: '20140901'
   Filename: Bu_munu=TightCut
+'12511003':
+  Date: '20200812'
+  Filename: Bu_Xu0munu=TightCut,ForB2RhoMuNu
 '12511401':
   Date: '20130218'
   Filename: Bu_pi0munu=ISGW2
+'12511402':
+  Date: '20201211'
+  Filename: Bu_pi0munu=TightCut,BCL
 '12513000':
   Date: '20101221'
   Filename: Bu_rhomunu
 '12513001':
   Date: '20101221'
   Filename: Bu_rhomunu=DecProdCut
+'12513002':
+  Date: '20201205'
+  Filename: Bu_rhomunu=TightCut,BCL
 '12513010':
   Date: '20140904'
   Filename: Bu_phimunu=DecProdCut
@@ -6748,6 +7261,9 @@
 '12513070':
   Date: '20150512'
   Filename: Bu_Higgsmumu=PPchangeDecProdCut
+'12513404':
+  Date: '20201205'
+  Filename: Bu_etamunu,pipiX=TightCut,ISGW2
 '12523000':
   Date: '20190510'
   Filename: Bu2EEENuE=DN,DecProdCut
@@ -6916,6 +7432,9 @@
 '12665400':
   Date: '20131118'
   Filename: Bu_DststTauNu,3pipi0,3pinu=cocktail,TightCut
+'12666000':
+  Date: '20210421'
+  Filename: Bu_Dststtaunu,D-=cocktail,3pinu3pipi0nu,tauolababar,TightCut
 '12667001':
   Date: '20130415'
   Filename: Bu_DststTauNu,Dstpi,D0pi=DecProdCut
@@ -6931,12 +7450,18 @@
 '12675010':
   Date: '20140628'
   Filename: Bu_Dststmunu,D0=CocktailHigher,TightCut
+'12675011':
+  Date: '20140628'
+  Filename: Bu_Dststmunu,D0=CocktailHigher,RDstar,TightCut
 '12675400':
   Date: '20140628'
   Filename: Bu_Dststmunu,Dst+=CocktailHigher,TightCut
 '12675401':
   Date: '20190215'
   Filename: Bu_Dststmunu,Dst+=CocktailHigher,TightCut,tighter
+'12675402':
+  Date: '20200928'
+  Filename: Bu_Dststmunu,Dst+=CocktailHigher,RDstar,TightCut
 '12675410':
   Date: '20150610'
   Filename: Bu_LcNstmunu,pKpi=TightCut
@@ -6982,9 +7507,6 @@
 '12775002':
   Date: '20170325'
   Filename: Bu_Dst02400munu,DsK,KKpi=LHCbAcceptance
-'12775003':
-  Date: '20170920'
-  Filename: Bu_Dst02400munu,DsK,KKpi=mu3hInAcc
 '12775004':
   Date: '20190213'
   Filename: Bu_D+ppbarX,Xmunu=TightCut
@@ -6997,6 +7519,12 @@
 '12813402':
   Date: '20191129'
   Filename: Bu_pNstmunu,pX=TightCutpQCD
+'12813403':
+  Date: '20201205'
+  Filename: Bu_omegamunu,pipiX=TightCut,BCL
+'12813405':
+  Date: '20201212'
+  Filename: Bu_etaprimemunu,pipiX=TightCut,ISGW2
 '12813410':
   Date: '20160811'
   Filename: Bu_Delpbarmunu,pX=TightCut
@@ -7006,6 +7534,15 @@
 '12813412':
   Date: '20191129'
   Filename: Bu_Delpbarmunu,pX=TightCutpQCD
+'12863030':
+  Date: '20210421'
+  Filename: Bu_Dststtaunu,D0Dst=cocktail,3pinu3pipi0nu,tauolababar,TightCut
+'12865420':
+  Date: '20200914'
+  Filename: Bu_D+X,Kpipi=cocktail,TightCut,ACPKKCuts
+'12865530':
+  Date: '20200914'
+  Filename: Bu_D+X,KSpi=cocktail,TightCut,ACPKKCuts
 '12873000':
   Date: '20130418'
   Filename: Bu_D0DX,muX=cocktail,TightCuts
@@ -7030,6 +7567,9 @@
 '12873041':
   Date: '20200320'
   Filename: Bu_D+Xmunu,D+=cocktail,TightCut,ForB2RhoMuNu
+'12873042':
+  Date: '20201008'
+  Filename: Bu_D0Xmunu,D0=cocktail,pipi,D0muInAcc
 '12873400':
   Date: '20191210'
   Filename: Bu_D0muX,Kpi=cocktail,TightCut,TurboSLCuts
@@ -7054,6 +7594,12 @@
 '12873423':
   Date: '20120522'
   Filename: Bu_D0munu,pipipi0=cocktail,BRcorr1,D0muInAcc
+'12873424':
+  Date: '20210115'
+  Filename: Bu_D0munu,pipipi0=cocktail,BRcorr1,Dalitz,TightCut,ForB2RhoMuNu
+'12873425':
+  Date: '20210412'
+  Filename: Bu_D0munu,pipipi0pi0=cocktail,BRcorr1,TightCut,ForB2RhoMuNu
 '12873432':
   Date: '20120522'
   Filename: Bu_D0munu,KKpi0=cocktail,BRcorr1,D0muInAcc
@@ -7063,6 +7609,18 @@
 '12873441':
   Date: '20150721'
   Filename: Bu_D0Xmunu,D0=cocktail
+'12873450':
+  Date: '20200928'
+  Filename: Bu_Dststmunu,D0=cocktail,RDstar,TightCut
+'12873460':
+  Date: '20200928'
+  Filename: Bu_Dststtaunu,D0=cocktail,RDstar,TightCut
+'12873500':
+  Date: '20210115'
+  Filename: Bu_D0munu,KSpipi=cocktail,BRcorr1,Dalitz,TightCut,ForB2RhoMuNu
+'12873501':
+  Date: '20210115'
+  Filename: Bu_D0munu,KSpipipi0=cocktail,BRcorr1,TightCut,ForB2RhoMuNu
 '12874000':
   Date: '20110901'
   Filename: Bu_Dstmunu=Kpi,cocktail,D0muInAcc
@@ -7087,6 +7645,9 @@
 '12874050':
   Date: '20160601'
   Filename: Bu_Dststmunu,D+=Cocktail,RDplusCut
+'12875000':
+  Date: '20201207'
+  Filename: Bu_Dst02400munu,DsK,KKpi=mu3hInAcc
 '12875002':
   Date: '20111205'
   Filename: Bu_Dstmunu,Kpi=cocktail,D0muInAcc,BRCorr1
@@ -7141,6 +7702,9 @@
 '12875407':
   Date: '20200811'
   Filename: Bu_D0munu,Kpipipi=cocktail,D0muInAcc,BRcorr1
+'12875408':
+  Date: '20210115'
+  Filename: Bu_D0munu,Kpipipi=cocktail,BRcorr1,TightCut,ForB2RhoMuNu
 '12875411':
   Date: '20150527'
   Filename: Bu_Lcpbarmunu,pX=TightCut
@@ -7156,6 +7720,9 @@
 '12875430':
   Date: '20180206'
   Filename: Bu_D+ppbarX,Xmunu=DecProdCut
+'12875440':
+  Date: '20200928'
+  Filename: Bu_Dststmunu,Dst0=CocktailHigher,RDstar,TightCut
 '12875500':
   Date: '20130220'
   Filename: Bu_D0munu,KSpipi=cocktail,D0muInAcc,BRcorr1
@@ -7192,6 +7759,9 @@
 '12875602':
   Date: '20170303'
   Filename: Bu_DsstDst,DsgammaD0pi,KKpimunuX=cocktail,LHCbAcceptance
+'12875603':
+  Date: '20201207'
+  Filename: Bu_DsstDst,gDsgD0,KKpimunuX=cocktail,mu3hInAcc
 '12875613':
   Date: '20170920'
   Filename: Bu_DsstDst,DsgammaD0pi,KKpimunuX=cocktail,mu3hInAcc
@@ -7234,6 +7804,24 @@
 '12885031':
   Date: '20190215'
   Filename: Bu_Dst+DsX,taunuenu=cocktail,TightCut,tighter
+'12893200':
+  Date: '20200910'
+  Filename: Bu_DsX,KKpi=cocktail,TightCut,ACPKKCuts
+'12893300':
+  Date: '20200910'
+  Filename: Bu_DsX,KSK=cocktail,TightCut,ACPKKCuts
+'12893600':
+  Date: '20200811'
+  Filename: Bu_D0DX,muX=cocktail,RDstar,TightCut
+'12893610':
+  Date: '20200811'
+  Filename: Bu_D0DsX,taunu=cocktail,RDstar,TightCut
+'12895000':
+  Date: '20200811'
+  Filename: Bu_Dst+DsX,taunu=cocktail,RDstar,TightCut
+'12895400':
+  Date: '20200811'
+  Filename: Bu_Dst+DX,muX=cocktail,RDstar,TightCut
 '12895614':
   Date: '20190719'
   Filename: Bu_DsstDst,DsgammaD0pi,KKpimunuX=cocktail,mu3hInAcc,TightCut
@@ -7384,6 +7972,9 @@
 '13102250':
   Date: '20181025'
   Filename: Bs_etaprimetautau,3pi3pi=DecProdCut,TightCut,tauola5
+'13102263':
+  Date: '20201119'
+  Filename: Bs_Phigamma=PHSP,TightCut
 '13102401':
   Date: '20120209'
   Filename: Bs_rho+K-=DecProdCut
@@ -7423,6 +8014,9 @@
 '13102601':
   Date: '20190604'
   Filename: Bs_f1420gamma,KKpi0=HighPtGamma,DecProdCut
+'13102611':
+  Date: '20201119'
+  Filename: Bs_K+K-pi0gamma=phi1680,TightCut
 '13104001':
   Date: '20070502'
   Filename: Bs_Kst0Kst0=DecProdCut
@@ -7432,6 +8026,9 @@
 '13104003':
   Date: '20111201'
   Filename: Bs_Kst0Kst0=DecProdCut,Iso
+'13104004':
+  Date: '20201119'
+  Filename: Bs_Kst0Kst0=DecProdCut,HelAmpsNearData
 '13104011':
   Date: '20111013'
   Filename: Bs_phiphi=DecProdCut
@@ -7798,6 +8395,9 @@
 '13114034':
   Date: '20120705'
   Filename: Bs_4mu=Geq0001,DecProdCut
+'13114035':
+  Date: '20210317'
+  Filename: Bs_aa2mumumumu,m=1GeV,t=1fs,DecProdCut
 '13114040':
   Date: '20140523'
   Filename: Bs_fprime2mumu,KK=PHSP,DecProdCut
@@ -7813,6 +8413,9 @@
 '13114065':
   Date: '20200229'
   Filename: Bs_ppbarmumu=TightCut
+'13114066':
+  Date: '20200825'
+  Filename: Bs_ppbarmumu=DecProdCut
 '13114078':
   Date: '20160329'
   Filename: Bs_Kpimumu=DecProdCut
@@ -7864,6 +8467,15 @@
 '13124051':
   Date: '20160329'
   Filename: Bs_Kpiee=DecProdCut
+'13124060':
+  Date: '20210201'
+  Filename: Bs_phiphi,K+K-e+e-=DecProdCut
+'13124401':
+  Date: '20201214'
+  Filename: Bs_phieta,e+e-g=DecProdCut
+'13124402':
+  Date: '20201214'
+  Filename: Bs_phipi0,e+e-g=Dalitz,DecProdCut
 '13134000':
   Date: '20130925'
   Filename: Bs_etacphi,pp=DecProdCut
@@ -8611,6 +9223,15 @@
 '13166053':
   Date: '20150618'
   Filename: Bs_Ds2536pi,DKpi,Kpipi=DecProdCut
+'13166077':
+  Date: '20201206'
+  Filename: Bs_D0KK,Kpipipi=BssqDalitz,DAmpGen,TightCut
+'13166078':
+  Date: '20201206'
+  Filename: Bs_D0KK,piKpipi=BssqDalitz,DAmpGen,TightCut
+'13166079':
+  Date: '20201204'
+  Filename: Bs_D0KK,pipipipi=BssqDalitz,DPHSP,TightCut
 '13166101':
   Date: '20120604'
   Filename: Bs_D0Kst,KSpipi=DecProdCut
@@ -8635,6 +9256,12 @@
 '13166114':
   Date: '20170502'
   Filename: Bs_D0phi,KSKK=DecProdCut
+'13166119':
+  Date: '20201130'
+  Filename: Bs_D0KK,KSpipi=BssqDalitz,DDalitz,TightCut
+'13166120':
+  Date: '20201130'
+  Filename: Bs_D0KK,KSKK=BssqDalitz,DDalitz,TightCut
 '13166122':
   Date: '20141003'
   Filename: Bs_D0Kst,KSKK=TightCut,PHSP
@@ -8662,6 +9289,24 @@
 '13166200':
   Date: '20140930'
   Filename: Bs_Ds2536K,Dst0K,D0gamma,K3pi=DecProdCut
+'13166271':
+  Date: '20201206'
+  Filename: Bs_Dst0Kpi,D0gamma,Kpipipi=BssqDalitz,DAmpGen,TightCut
+'13166272':
+  Date: '20201206'
+  Filename: Bs_Dst0Kpi,D0gamma,piKpipi=BssqDalitz,DAmpGen,TightCut
+'13166273':
+  Date: '20201204'
+  Filename: Bs_Dst0Kpi,D0gamma,pipipipi=BssqDalitz,DPHSP,TightCut
+'13166277':
+  Date: '20201206'
+  Filename: Bs_Dst0KK,D0gamma,Kpipipi=BssqDalitz,DAmpGen,TightCut
+'13166278':
+  Date: '20201206'
+  Filename: Bs_Dst0KK,D0gamma,piKpipi=BssqDalitz,DAmpGen,TightCut
+'13166279':
+  Date: '20201204'
+  Filename: Bs_Dst0KK,D0gamma,pipipipi=BssqDalitz,DPHSP,TightCut
 '13166302':
   Date: '20130107'
   Filename: Bs_Dst0Kst0,D0gamma,KSpipi=TightCut,HELAMP100
@@ -8695,9 +9340,39 @@
 '13166321':
   Date: '20190710'
   Filename: Bs_Dst0Kpi,D0gamma,KSKK=sqDalitz,TightCut
+'13166330':
+  Date: '20201202'
+  Filename: Bs_Dst0Kpi,D0gamma,KSpipi=BssqDalitz,DDalitz,TightCut
+'13166331':
+  Date: '20201202'
+  Filename: Bs_Dst0Kpi,D0gamma,KSKK=BssqDalitz,DDalitz,TightCut
+'13166334':
+  Date: '20201202'
+  Filename: Bs_Dst0KK,D0gamma,KSpipi=BssqDalitz,DDalitz,TightCut
+'13166335':
+  Date: '20201202'
+  Filename: Bs_Dst0KK,D0gamma,KSKK=BssqDalitz,DDalitz,TightCut
 '13166400':
   Date: '20140930'
   Filename: Bs_Ds2536K,Dst0K,D0pi0,K3pi=DecProdCut
+'13166471':
+  Date: '20201206'
+  Filename: Bs_Dst0Kpi,D0pi0,Kpipipi=BssqDalitz,DAmpGen,TightCut
+'13166472':
+  Date: '20201206'
+  Filename: Bs_Dst0Kpi,D0pi0,piKpipi=BssqDalitz,DAmpGen,TightCut
+'13166473':
+  Date: '20201204'
+  Filename: Bs_Dst0Kpi,D0pi0,pipipipi=BssqDalitz,DPHSP,TightCut
+'13166477':
+  Date: '20201206'
+  Filename: Bs_Dst0KK,D0pi0,Kpipipi=BssqDalitz,DAmpGen,TightCut
+'13166478':
+  Date: '20201206'
+  Filename: Bs_Dst0KK,D0pi0,piKpipi=BssqDalitz,DAmpGen,TightCut
+'13166479':
+  Date: '20201204'
+  Filename: Bs_Dst0KK,D0pi0,pipipipi=BssqDalitz,DPHSP,TightCut
 '13166502':
   Date: '20130107'
   Filename: Bs_Dst0Kst0,D0pi0,KSpipi=TightCut,HELAMP100
@@ -8725,6 +9400,18 @@
 '13166514':
   Date: '20141003'
   Filename: Bs_Dst0Kst0,D0pi0,KSKK=TightCut,HELAMP001
+'13166530':
+  Date: '20201202'
+  Filename: Bs_Dst0Kpi,D0pi0,KSpipi=BssqDalitz,DDalitz,TightCut
+'13166531':
+  Date: '20201202'
+  Filename: Bs_Dst0Kpi,D0pi0,KSKK=BssqDalitz,DDalitz,TightCut
+'13166534':
+  Date: '20201202'
+  Filename: Bs_Dst0KK,D0pi0,KSpipi=BssqDalitz,DDalitz,TightCut
+'13166535':
+  Date: '20201202'
+  Filename: Bs_Dst0KK,D0pi0,KSKK=BssqDalitz,DDalitz,TightCut
 '13166711':
   Date: '20140926'
   Filename: Bs_Dst-KSpi,Kpipi=sqDalitz,DecProdCut
@@ -8806,6 +9493,12 @@
 '13196050':
   Date: '20161021'
   Filename: Bs_Dst-Dst+,D0pi-,Kpi=DecProdCut
+'13196051':
+  Date: '20201201'
+  Filename: Bs_Dst-Dst+,D0pi-,Kpi=DecProdCut,HELAMP100
+'13196052':
+  Date: '20201201'
+  Filename: Bs_Dst-Dst+,D0pi-,Kpi=DecProdCut,HELAMP010
 '13196061':
   Date: '20190619'
   Filename: Bs_DsDs,KKpi3pi=bothDDALITZ,DecProdCut_pCut1600MeV
@@ -8848,6 +9541,12 @@
 '13198002':
   Date: '20140725'
   Filename: Bs_DstDstPhi,Kpi,Kpi=DecProdCut
+'13198003':
+  Date: '20210209'
+  Filename: Bs_D0D0phi,K3Pi=TightCut,AMPGEN
+'13198004':
+  Date: '20210209'
+  Filename: Bs_D0D0phi,K3PiandKPi=TightCut,PHSP
 '13198010':
   Date: '20140808'
   Filename: Bs_DDphi,KPiPi,KPiPi,KK=sqDalitz,DecProdCut
@@ -8914,6 +9613,9 @@
 '13204101':
   Date: '20111025'
   Filename: Bs_KSpi+pi-=DecProdCut
+'13204324':
+  Date: '20201119'
+  Filename: Bs_KsK+pi-gamma=TightCut,mKshhCut,KSVtxCut,cocktail
 '13244202':
   Date: '20120424'
   Filename: Bs_chicphi,JpsigKK,mm=TightCuts
@@ -8938,6 +9640,9 @@
 '13246011':
   Date: '20110622'
   Filename: Bs_Jpsipipipipi,mm=DecProdCut
+'13246013':
+  Date: '20201105'
+  Filename: Bs_Jpsipipipipi,mm=TightCut
 '13246103':
   Date: '20130226'
   Filename: Bs_JpsiKspipi,mm=DecProdCut,pCut1600MeV
@@ -8947,6 +9652,9 @@
 '13246105':
   Date: '20161108'
   Filename: Bs_JpsiKSKpi,mm=DecProdCut,pCut1600MeV
+'13246116':
+  Date: '20201119'
+  Filename: Bs_JpsiKsKpi,mm=TightCut,KSVtxCut,cocktail
 '13246202':
   Date: '20180925'
   Filename: Bs_JpsietapKK,mm,rhog,pipi=TightCuts
@@ -9595,6 +10303,12 @@
 '13574092':
   Date: '20190826'
   Filename: Bs_Dsmunu,phimunu=DecProdCut,HighVisMass,EvtGenDecayWithCut
+'13574093':
+  Date: '20210121'
+  Filename: Bs_Dsst2573munu,D0K,Kenu=DecProdCut,HighVisMass,DiHadronMass,EvtGenDecayWithCut
+'13574094':
+  Date: '20210121'
+  Filename: Bs_Dsst2573enu,D0K,Kmunu=DecProdCut,HighVisMass,DiHadronMass,EvtGenDecayWithCut
 '13574200':
   Date: '20141213'
   Filename: Bs_Dsmunu,etapi,pipig=DecProdCut,DsmuInAcc
@@ -9664,6 +10378,18 @@
 '13606400':
   Date: '20150330'
   Filename: Bs_tautau,3pi,3pipi0=DecProdCut,TightCut
+'13614041':
+  Date: '20210322'
+  Filename: Bs_phitautau,mumuCocktail=TightCut
+'13614042':
+  Date: '20210224'
+  Filename: Bs_phitautau,mumuCocktail=DecProdCut
+'13666000':
+  Date: '20210421'
+  Filename: Bs_Dsststtaunu,D-=cocktail,3pinu3pipi0nu,tauolababar,TightCut
+'13674000':
+  Date: '20200928'
+  Filename: Bs_Dsststmunu,Dst+=cocktail,RDstar,TightCut
 '13714000':
   Date: '20121209'
   Filename: Bs_tautau,mu3pi=DecProdCut,tightcut
@@ -9712,6 +10438,9 @@
 '13774206':
   Date: '20170920'
   Filename: Bs_Dsmunu=cocktail,hqet2,mu3hInAcc
+'13774210':
+  Date: '20200910'
+  Filename: Bs_DsX,KKpi=cocktail,TightCut,ACPKKCuts
 '13774221':
   Date: '20190611'
   Filename: Bs_Dsmunu=Ds+Dsst=hqet2,mu3hInAcc
@@ -9721,6 +10450,9 @@
 '13774263':
   Date: '20170920'
   Filename: Bs_Dstaunu=cocktail,mu3hInAcc
+'13774300':
+  Date: '20200910'
+  Filename: Bs_DsX,KSK=cocktail,TightCut,ACPKKCuts
 '13774423':
   Date: '20190611'
   Filename: Bs_Dsmunu=Dsstst=cocktail,ISGW2,mu3hInAcc
@@ -9745,6 +10477,9 @@
 '13796002':
   Date: '20170920'
   Filename: Bs_D0DsK,Kmunu,KKpi=mu3hInAcc
+'13863000':
+  Date: '20210421'
+  Filename: Bs_Dsststtaunu,D0Dst=cocktail,3pinu3pipi0nu,tauolababar,TightCut
 '13863401':
   Date: '20200320'
   Filename: Bs_DsststTauNu,KKPi,PiPiPi=TightCut,tauolababar
@@ -9766,6 +10501,18 @@
 '13874010':
   Date: '20190215'
   Filename: Bs_Dsststmunu,Dst+=cocktail,TightCut,tighter
+'13874020':
+  Date: '20200928'
+  Filename: Bs_Dsststmunu,D0=cocktail,RDstar,TightCut
+'13874200':
+  Date: '20201207'
+  Filename: Bs_Dsmunu,KKpi=cocktail,hqet2,mu3hInAcc
+'13874201':
+  Date: '20201207'
+  Filename: Bs_DsstDsst,gDsgDs,KKpimunuX=cocktail,mu3hInAcc
+'13874242':
+  Date: '20210323'
+  Filename: Bs_Dsmunu,phimunuCocktail=TightCut
 '13874400':
   Date: '20150303'
   Filename: Bs_Dsststmunu,D+=cocktail,DecProdCut
@@ -9961,6 +10708,12 @@
 '14113018':
   Date: '20171219'
   Filename: Bc_MuMajoranaNeutrino2MuPi,m=2000MeV,t=10ps,DecProdCut
+'14113020':
+  Date: '20210119'
+  Filename: Bc_Bsst0Pi,mm=BcVegPy,DecProdCut
+'14113021':
+  Date: '20210119'
+  Filename: Bc_Bst0Pi,mm=BcVegPy,DecProdCut
 '14133000':
   Date: '20130925'
   Filename: Bc_etacpi,pp=BcVegPy,DecProdCut
@@ -10006,6 +10759,9 @@
 '14143020':
   Date: '20110909'
   Filename: Bc_psi2Spi,mm=BcVegPy,DecProdCut
+'14143025':
+  Date: '20210202'
+  Filename: Bc_psi2SK,mm=BcVegPy,DecProdCut
 '14143201':
   Date: '20140507'
   Filename: Bc_chic1pi,mm=DecProdCut
@@ -10066,12 +10822,24 @@
 '14145051':
   Date: '20150709'
   Filename: Bc_BuRho,JpsiK,mumu=BcVegPy,DecProdCut
+'14145062':
+  Date: '20200721'
+  Filename: Bc_psi2Spipipi,mm=BcVegPy,DecProdCut,BCVHAD1
+'14145064':
+  Date: '20200810'
+  Filename: Bc_jpsikpipi,mm=BcVegPy,DecProdCut,BCVHAD2
 '14145090':
   Date: '20141116'
   Filename: Bc2_Bcpipi,Jpsipi,mm=DecProdCut,BcVegPy
 '14145111':
   Date: '20120607'
   Filename: Bc_JpsipLambda=DecProdCut
+'14145200':
+  Date: '20201211'
+  Filename: Bc_Bsstarpi+,Bsgamma,Jpsiphi=BcVegPy,DecProdCut
+'14145204':
+  Date: '20201211'
+  Filename: Bc_Bdstarpi+,Bdgamma,JpsiKstar=BcVegPy,DecProdCut
 '14145210':
   Date: '20190404'
   Filename: Bc_BstKst,JpsiKgamma,Kpi=BcVegPy,DecProdCut
@@ -10237,6 +11005,9 @@
 '14165220':
   Date: '20190404'
   Filename: Bc_BstKst,Dpigamma,Kpi=BcVegPy,DecProdCut
+'14165230':
+  Date: '20201211'
+  Filename: Bc_Bdstarpi+,Bdgamma,Dpi=BcVegPy,DecProdCut
 '14165400':
   Date: '20170310'
   Filename: Bc_PhiDsst,KK,Dspi0,KKpi=DDalitz,BcVegPy,DecProdCut,HELAMP001
@@ -10654,9 +11425,15 @@
 '14245001':
   Date: '20140212'
   Filename: Bc_Jpsipppi,mm=BcVegPy,DecProdCut
+'14245063':
+  Date: '20200820'
+  Filename: Bc_jpsikkk,mm=BcVegPy,DecProdCut
 '14265001':
   Date: '20120208'
   Filename: Bc_Dsphi-DDalitz=BcVegPy,DecProdCut
+'14265200':
+  Date: '20201211'
+  Filename: Bc_Bsstarpi+,Bsgamma,Dspi=BcVegPy,DecProdCut
 '14275000':
   Date: '20160329'
   Filename: Bc_DsemuSS,Kpipi=BcVegPy,DecProdCut
@@ -11083,6 +11860,12 @@
 '14543024':
   Date: '20190709'
   Filename: Bc_psi2STauNu,mununu,mm=BcVegPy,ffEbert,DecProdCut
+'14543025':
+  Date: '20210329'
+  Filename: Bc_Jpsimunu,pp=BcVegPy,ffKiselev,DecProdCut
+'14543026':
+  Date: '20210329'
+  Filename: Bc_Jpsimunu,pp=BcVegPy,ffEbert,DecProdCut
 '14543031':
   Date: '20190722'
   Filename: Bc_etactaunu,ppmununu=BcVegPy,TightCut
@@ -11788,6 +12571,9 @@
 '15144702':
   Date: '20190130'
   Filename: Lb_JpsiLambdast1600,mm,Sigmapi,Lambdagamma=phsp,DecProdCut
+'15144800':
+  Date: '20210411'
+  Filename: Lb_JpsiSigma-pi=TightCut
 '15146101':
   Date: '20130228'
   Filename: Lb_JpsiKsLambda,mm=DecProdCut,pCut1600MeV
@@ -12037,18 +12823,108 @@
 '15166030':
   Date: '20171019'
   Filename: Lb_Dp2pi,K2pi=TightCut
+'15166074':
+  Date: '20201206'
+  Filename: Lb_D0ppi,Kpipipi=LbsqDalitz,DAmpGen,TightCut
+'15166075':
+  Date: '20201206'
+  Filename: Lb_D0ppi,piKpipi=LbsqDalitz,DAmpGen,TightCut
+'15166076':
+  Date: '20201204'
+  Filename: Lb_D0ppi,pipipipi=LbsqDalitz,DPHSP,TightCut
+'15166077':
+  Date: '20201206'
+  Filename: Lb_D0pK,Kpipipi=LbsqDalitz,DAmpGen,TightCut
+'15166078':
+  Date: '20201206'
+  Filename: Lb_D0pK,piKpipi=LbsqDalitz,DAmpGen,TightCut
+'15166079':
+  Date: '20201204'
+  Filename: Lb_D0pK,pipipipi=LbsqDalitz,DPHSP,TightCut
 '15166101':
   Date: '20120604'
   Filename: Lb_D0ppi,KSpipi=DecProdCut
 '15166111':
   Date: '20120604'
   Filename: Lb_D0pK,KSpipi=DecProdCut
+'15166117':
+  Date: '20201130'
+  Filename: Lb_D0ppi,KSpipi=LbsqDalitz,DDalitz,TightCut
+'15166118':
+  Date: '20201130'
+  Filename: Lb_D0ppi,KSKK=LbsqDalitz,DDalitz,TightCut
+'15166119':
+  Date: '20201130'
+  Filename: Lb_D0pK,KSpipi=LbsqDalitz,DDalitz,TightCut
+'15166120':
+  Date: '20201130'
+  Filename: Lb_D0pK,KSKK=LbsqDalitz,DDalitz,TightCut
 '15166121':
   Date: '20170424'
   Filename: Lb_LcKst,pKpi=DecProdCut
 '15166130':
   Date: '20190327'
   Filename: Lb_D0Lambda,K3pippi=phsp,DecProdCut_pCut1600MeV
+'15166274':
+  Date: '20201206'
+  Filename: Lb_Dst0ppi,D0gamma,Kpipipi=LbsqDalitz,DAmpGen,TightCut
+'15166275':
+  Date: '20201206'
+  Filename: Lb_Dst0ppi,D0gamma,piKpipi=LbsqDalitz,DAmpGen,TightCut
+'15166276':
+  Date: '20201204'
+  Filename: Lb_Dst0ppi,D0gamma,pipipipi=LbsqDalitz,DPHSP,TightCut
+'15166277':
+  Date: '20201206'
+  Filename: Lb_Dst0pK,D0gamma,Kpipipi=LbsqDalitz,DAmpGen,TightCut
+'15166278':
+  Date: '20201206'
+  Filename: Lb_Dst0pK,D0gamma,piKpipi=LbsqDalitz,DAmpGen,TightCut
+'15166279':
+  Date: '20201204'
+  Filename: Lb_Dst0pK,D0gamma,pipipipi=LbsqDalitz,DPHSP,TightCut
+'15166317':
+  Date: '20201202'
+  Filename: Lb_Dst0ppi,D0gamma,KSpipi=LbsqDalitz,DDalitz,TightCut
+'15166318':
+  Date: '20201202'
+  Filename: Lb_Dst0ppi,D0gamma,KSKK=LbsqDalitz,DDalitz,TightCut
+'15166319':
+  Date: '20201202'
+  Filename: Lb_Dst0pK,D0gamma,KSpipi=LbsqDalitz,DDalitz,TightCut
+'15166320':
+  Date: '20201202'
+  Filename: Lb_Dst0pK,D0gamma,KSKK=LbsqDalitz,DDalitz,TightCut
+'15166474':
+  Date: '20201206'
+  Filename: Lb_Dst0ppi,D0pi0,Kpipipi=LbsqDalitz,DAmpGen,TightCut
+'15166475':
+  Date: '20201206'
+  Filename: Lb_Dst0ppi,D0pi0,piKpipi=LbsqDalitz,DAmpGen,TightCut
+'15166476':
+  Date: '20201204'
+  Filename: Lb_Dst0ppi,D0pi0,pipipipi=LbsqDalitz,DPHSP,TightCut
+'15166477':
+  Date: '20201206'
+  Filename: Lb_Dst0pK,D0pi0,Kpipipi=LbsqDalitz,DAmpGen,TightCut
+'15166478':
+  Date: '20201206'
+  Filename: Lb_Dst0pK,D0pi0,piKpipi=LbsqDalitz,DAmpGen,TightCut
+'15166479':
+  Date: '20201204'
+  Filename: Lb_Dst0pK,D0pi0,pipipipi=LbsqDalitz,DPHSP,TightCut
+'15166517':
+  Date: '20201202'
+  Filename: Lb_Dst0ppi,D0pi0,KSpipi=LbsqDalitz,DDalitz,TightCut
+'15166518':
+  Date: '20201202'
+  Filename: Lb_Dst0ppi,D0pi0,KSKK=LbsqDalitz,DDalitz,TightCut
+'15166519':
+  Date: '20201202'
+  Filename: Lb_Dst0pK,D0pi0,KSpipi=LbsqDalitz,DDalitz,TightCut
+'15166520':
+  Date: '20201202'
+  Filename: Lb_Dst0pK,D0pi0,KSKK=LbsqDalitz,DDalitz,TightCut
 '15168001':
   Date: '20120509'
   Filename: Lb_Lambdac5pi,pKpi=DecProdCut
@@ -12148,6 +13024,9 @@
 '15204013':
   Date: '20140426'
   Filename: Lb_pKKK=DecProdCut
+'15204374':
+  Date: '20201119'
+  Filename: Lb_Ksppi-gamma=TightCut,mKshhCut,KSVtxCut,cocktail
 '15244201':
   Date: '20140507'
   Filename: Lb_chic1pK,Jpsig,mm=TightCut
@@ -12166,6 +13045,9 @@
 '15246001':
   Date: '20140420'
   Filename: Lb_JpsipipipK=TightCut
+'15246104':
+  Date: '20201119'
+  Filename: Lb_JpsiKsppi,mm=TightCut,KSVtxCut,cocktail
 '15264000':
   Date: '20111010'
   Filename: Lb_Dsp
@@ -12314,7 +13196,7 @@
   Date: '2020207'
   Filename: Lb_Lc2625Ds,Ds2hhhNneutrals=DecProdCut,LooseCut
 '15298606':
-  Date: '20200207'
+  Date: '20180109'
   Filename: Lb_Lc2593Ds,Ds2hhhNneutrals=DecProdCut,LooseCut
 '15298607':
   Date: '20200207'
@@ -12329,14 +13211,17 @@
   Date: '20130823'
   Filename: Lb_LambdaKpi=sqDalitz,DecProdCut
 '15314000':
-  Date: '20170131'
+  Date: '20210120'
   Filename: Lb_Lambda1520emu,pK=DecProdCut
 '15314030':
-  Date: '20161108'
+  Date: '20210120'
   Filename: Lb_emupK=DecProdCut
 '15336011':
   Date: '20150819'
   Filename: Lb_etacpK,hhhh=phsp,DecProdCut
+'15344400':
+  Date: '20210409'
+  Filename: Lb_JpsiSigma+pi=TightCut
 '15364010':
   Date: '20140219'
   Filename: Lb_Lcpi,pKpi=DecProdCut
@@ -12448,6 +13333,9 @@
 '15466420':
   Date: '20171019'
   Filename: Lb_Dstp2pi,D,K2pi=TightCut
+'15496200':
+  Date: '20201222'
+  Filename: Lb_LcDsst,pKpi,KKpi=TightCut
 '15512011':
   Date: '20120323'
   Filename: Lb_pmunu=DecProdCut
@@ -12481,6 +13369,9 @@
 '15512400':
   Date: '20140313'
   Filename: Lb_ppi0munu=TightCut
+'15514042':
+  Date: '20210224'
+  Filename: Lb_pKtautau,mumu=DecProdCut
 '15522011':
   Date: '20120918'
   Filename: Lb_penu=DecProdCut
@@ -12655,6 +13546,9 @@
 '15584113':
   Date: '20180824'
   Filename: Lb_Lcenu,L0enu=TightCut,HighVisMass,EvtGenCut
+'15663000':
+  Date: '20210421'
+  Filename: Lb_Lcsttauunu,D0p=cocktail,3pinu3pipi0nu,tauolababar,TightCut
 '15674000':
   Date: '20121120'
   Filename: Lb_Lcmunu,pKK=DecProdCut
@@ -12778,6 +13672,9 @@
 '15874101':
   Date: '20190228'
   Filename: Lb_Lcmunu,LambdaPi=cocktail,Lb2Baryonlnu
+'15874300':
+  Date: '20201207'
+  Filename: Lb_DsstLc,DsmunuX=cocktail,mu3hInAcc
 '15874400':
   Date: '20101230'
   Filename: Lb_Lcmunu,pX=charged,TightCut
@@ -13471,6 +14368,12 @@
 '16295060':
   Date: '20160616'
   Filename: Xibc_LcD0,pKpi-res,Kpi=DecProdCut,m=6.9GeV,t=0.4ps
+'16296040':
+  Date: '20201206'
+  Filename: Xib0_Xic+Ds,pKpi,KKpi=DecProdCut
+'16297030':
+  Date: '20210131'
+  Filename: Xib-_XicDs,pKKpi,KKpi=DecProdCut
 '16303430':
   Date: '20150707'
   Filename: Xib_Delta+h-h-,p+pi0=phsp,DecProdCut
@@ -13498,6 +14401,9 @@
 '16365031':
   Date: '20200713'
   Filename: Xib_Lbpi,pKpi=TightCut
+'16366040':
+  Date: '20210210'
+  Filename: Xib0_LambdacKpipi=phsp,TightCut
 '16463030':
   Date: '20161104'
   Filename: Xib_Xich-,ph-=PHSP,DecProdCut
@@ -13507,15 +14413,33 @@
 '16465000':
   Date: '20131217'
   Filename: Xibst+_Xibpi=cocktail,DecProdCut
+'16465001':
+  Date: '20210215'
+  Filename: XibStar6450_LbK,Lcpi=TightCut
+'16465002':
+  Date: '20210215'
+  Filename: XibStar6360_LbK,Lcpi=TightCut
 '16465009':
   Date: '20170504'
   Filename: XibStar2_LbK,Lcpi=DecProdCut
+'16466010':
+  Date: '20210213'
+  Filename: Xib06100_Xibpipi=TightCut
 '16466040':
   Date: '20200429'
   Filename: Xib0_Xic3pi,pKpi=TightCut
 '16466443':
   Date: '20141203'
   Filename: Xib0_Dst+pK-pi-=phsp
+'16467000':
+  Date: '20210213'
+  Filename: Xib-6100_Xibpipi=TightCut
+'16467001':
+  Date: '20210215'
+  Filename: XibStar6450_LbK,Lc3pi=TightCut
+'16467002':
+  Date: '20210215'
+  Filename: XibStar6360_LbK,Lc3pi=TightCut
 '16467032':
   Date: '20200429'
   Filename: Xib_Xic03pi,pKKpi=TightCut
@@ -13525,6 +14449,9 @@
 '16468041':
   Date: '20200509'
   Filename: Xibstar6327_LbKpi,Lb=cocktail,DecProdCut
+'16574040':
+  Date: '20201217'
+  Filename: Xib0_Xic+munu,ppiK=TightCut
 '16575060':
   Date: '20150528'
   Filename: Xibc_Lambdabmunu,Lambdacpi=DecProdCut
@@ -13537,12 +14464,18 @@
 '16675060':
   Date: '20161011'
   Filename: Xibc_Xiccppmunu,Xicpi,pKpi=DecProdCut,m=6.9GeV,t=0.4ps
+'16675061':
+  Date: '20201217'
+  Filename: Xibc+_Lbpi,Lcmunu,pKpi=DecProdCut
 '16676060':
   Date: '20161011'
   Filename: Xibc_Xiccpmunu,Xic0pi,pKKpi=DecProdCut,m=6.9GeV,t=0.4ps
 '16676061':
   Date: '20161011'
   Filename: Xibc_Xiccpmunu,LcKpi,pKpi=DecProdCut,m=6.9GeV,t=0.4ps
+'16676062':
+  Date: '20201217'
+  Filename: Xibc_LbKpi,Lcmunu,pKpi=DecProdCut
 '16677060':
   Date: '20161011'
   Filename: Xibc_Xiccppmunu,LcKpipi,pKpi=DecProdCut,m=6.9GeV,t=0.4ps
@@ -13774,21 +14707,15 @@
 '17876650':
   Date: '20160921'
   Filename: Bs1_BstK,D0XMuNu,D0=cocktail,mm=DecProdCut
+'18100200':
+  Date: '20210312'
+  Filename: incl_etab,gammagamma=UpsilonDaughtersInLHCb
 '18104001':
   Date: '20160125'
   Filename: Etab_phiphi,KK=DecProdCut
 '18104002':
   Date: '20160125'
   Filename: Etab_KstKst,Kpi=DecProdCut
-'18104030':
-  Date: '20140912'
-  Filename: incl_b=chic0,phiphi,KK,InAcc
-'18104040':
-  Date: '20140912'
-  Filename: incl_b=chic1,phiphi,KK,InAcc
-'18104050':
-  Date: '20140912'
-  Filename: incl_b=chic2,phiphi,KK,InAcc
 '18106080':
   Date: '20150709'
   Filename: incl_b=etac2S,phiphiphi,KK,InAcc
@@ -13825,6 +14752,9 @@
 '18112271':
   Date: '20121210'
   Filename: incl_chib21P,Upsilongamma,mumu=UpsInAcc
+'18114001':
+  Date: '20201113'
+  Filename: incl_Upsilon1S,4m=DecProdCut
 '18114012':
   Date: '20110909'
   Filename: incl_Upsilon2S,Upsilon1Spipi=DecProdCut,fix
@@ -13870,6 +14800,12 @@
 '18114051':
   Date: '20150710'
   Filename: Xb_Upsilon1Sphi=PPchange,DecProdCut,10.72GeV
+'18114070':
+  Date: '20210308'
+  Filename: Xbb10300_UpsilonPi=TightCut
+'18114071':
+  Date: '20210308'
+  Filename: Xbb10500_UpsilonPi=TightCut
 '18122001':
   Date: '20110909'
   Filename: incl_Upsilon,ee=DecProdCut
@@ -14116,6 +15052,9 @@
 '21113036':
   Date: '20150723'
   Filename: D+_pi-emu=DecProdCut
+'21113041':
+  Date: '20200912'
+  Filename: D+_pi+etap,mumu=DecProdCut
 '21113176':
   Date: '20111103'
   Filename: D+_Ksmu+nu_mu=phsp,DecProdCut
@@ -14125,6 +15064,9 @@
 '21113420':
   Date: '20140710'
   Filename: D+_etapi,mm=TightCut
+'21113421':
+  Date: '20200912'
+  Filename: D+_pi+eta,mumu=DecProdCut
 '21123000':
   Date: '20150326'
   Filename: D+_K+ee=DecProdCut
@@ -14305,12 +15247,18 @@
 '21513017':
   Date: '20130925'
   Filename: D+_taunu,muphi=FromD
+'21513020':
+  Date: '20210316'
+  Filename: D+_K-pi+mu+nu=BESIIImodel,DecProdCut
 '21513070':
   Date: '20160208'
   Filename: D+_pipimu+nu_mu=phsp,DecProdCut
 '21513071':
   Date: '20160208'
   Filename: D+_piKmu+nu_mu=phsp,DecProdCut
+'21523020':
+  Date: '20210316'
+  Filename: D+_K-pi+e+nu=BESIIImodel,DecProdCut
 '21523070':
   Date: '20160208'
   Filename: D+_pipie+nu_e=phsp,DecProdCut
@@ -14443,6 +15391,12 @@
 '23103004':
   Date: '20131017'
   Filename: Ds_phipi,KK=FromD
+'23103005':
+  Date: '20201207'
+  Filename: Ds_KKpi=res,FromB
+'23103006':
+  Date: '20201207'
+  Filename: Ds_KKpi=res,NotFromB
 '23103011':
   Date: '20150630'
   Filename: Ds+_pi-pi+pi+=res,DecProdCut,pt10GeV
@@ -14581,6 +15535,9 @@
 '23113430':
   Date: '20200706'
   Filename: Ds_pi+etap,mumu=DecProdCut
+'23115004':
+  Date: '20200910'
+  Filename: Ds_pi+etap,pipimumu,etapModel=DecProdCut
 '23123000':
   Date: '20151203'
   Filename: Ds_K+ee=DecProdCut
@@ -14800,6 +15757,9 @@
 '24102011':
   Date: '20190207'
   Filename: incl_etac,pp=TightCut
+'24102013':
+  Date: '20201013'
+  Filename: incl_Jpsi,pp=TightCut
 '24102402':
   Date: '20160404'
   Filename: incl_Jpsi,pppi0=Pt0.9GeV,TightCut
@@ -14809,6 +15769,12 @@
 '24104100':
   Date: '20200318'
   Filename: incl_etac,KsKpi,pipi=TightCut
+'24114001':
+  Date: '20201030'
+  Filename: incl_Jpsi,4m=DecProdCut,prompt
+'24114002':
+  Date: '20201030'
+  Filename: incl_Jpsi,4m=DecProdCut
 '24142000':
   Date: '20110909'
   Filename: incl_Jpsi,mm=NoCut
@@ -14998,6 +15964,9 @@
 '25103100':
   Date: '20120521'
   Filename: Lc_KSp=DecProdCut
+'25103102':
+  Date: '20201102'
+  Filename: Lc_Lambdapi=HELAMP,TightCut
 '25103110':
   Date: '20120521'
   Filename: Lc_Lambdapi=DecProdCut
@@ -15022,6 +15991,9 @@
 '25105102':
   Date: '20200408'
   Filename: Lc_Lambdapipipi=TightCut
+'25105196':
+  Date: '20201216'
+  Filename: Lc_XiKpi=AMPGEN,TightCut
 '25113000':
   Date: '20130505'
   Filename: Lc_pmumu=OS,DecProdCut
@@ -15133,6 +16105,12 @@
 '25960000':
   Date: '20110120'
   Filename: Lc,incl
+'26102080':
+  Date: '20210206'
+  Filename: Xic0_pK-=pshp,DecProdCut
+'26102081':
+  Date: '20210206'
+  Filename: Omegac0_pK-=pshp,DecProdCut
 '26102093':
   Date: '20170205'
   Filename: Xic_Sigmapipi=DecProdCut,SameSign
@@ -15151,6 +16129,12 @@
 '26103091':
   Date: '20200403'
   Filename: Xic_pKpi=phsp,TightCutv2
+'26103092':
+  Date: '20210314'
+  Filename: Xic_pKpi=phsp,TightCutv3
+'26103180':
+  Date: '20210206'
+  Filename: Xic+_pKS0,pipi=pshp,DecProdCut
 '26104080':
   Date: '20150120'
   Filename: Xic0_pKKpi=phsp,DecProdCut
@@ -15196,6 +16180,27 @@
 '26104184':
   Date: '20200604'
   Filename: Xic_LambdaKpi,ppi=TightCut
+'26104185':
+  Date: '20201020'
+  Filename: Xic0_OmegaK=TightCut
+'26104186':
+  Date: '20201216'
+  Filename: Xic0_Xi-pi+=HELAMP,TightCut
+'26104187':
+  Date: '20201216'
+  Filename: Omegac_Omegapi=HELAMP,TightCut
+'26104188':
+  Date: '20210206'
+  Filename: Omegac0_L0KS0,ppi,pipi=pshp,DecProdCut
+'26104189':
+  Date: '20210413'
+  Filename: Xic0_L0KS0,ppi,pipi=pshp,DecProdCut
+'26104190':
+  Date: '20210413'
+  Filename: Xic0_L0Kpi,ppi=pshp,DecProdCut
+'26104191':
+  Date: '20210413'
+  Filename: Omegac0_L0Kpi,ppi=pshp,DecProdCut
 '26104880':
   Date: '20190111'
   Filename: Xic0_pKKpi=phsp,DecProdCut,TightCut,tau=250fs
@@ -15208,12 +16213,24 @@
 '26105192':
   Date: '20200408'
   Filename: Xic_LambdaKpipi=TightCut
+'26105195':
+  Date: '20201216'
+  Filename: Xic_Xipipi=AMPGEN,TightCut
+'26105196':
+  Date: '20201216'
+  Filename: Xic_XiKpi=AMPGEN,TightCut
+'26105197':
+  Date: '20210408'
+  Filename: Xic_Xipipi=Downstream,AMPGEN,TightCut
 '26106081':
   Date: '20160213'
   Filename: Omegac_Omegapipipi=phsp,DecProdCut
 '26106180':
   Date: '20170205'
   Filename: Xic_Xipipipi,Lambdapi=DecProdCut
+'26106182':
+  Date: '20201216'
+  Filename: Xic0_OmegaKpi-pi+=HELAMP,TightCut
 '26143010':
   Date: '20150206'
   Filename: incl_X+_Jpsip,mumu=phsp,DecProdCut
@@ -15289,9 +16306,9 @@
 '26164089':
   Date: '20190204'
   Filename: Xic30800_LcK,pKpi=phsp,TightCut
-'26164260':
-  Date: '20200101'
-  Filename: Xicc++_Xicprimepi,pKpi-res=GenXicc,phsp,DecProdCut,XiccMinPT
+'26164261':
+  Date: '20201027'
+  Filename: Xicc++_Xicprimepi,pKpi-res=GenXicc,phsp,DecProdCut,XiccMinPT_NEW
 '26164281':
   Date: '20150413'
   Filename: Omegacstst_XicprimeK,pKpi=phsp,TightCut,m=3090MeV,G=5MeV,MassCut
@@ -15547,6 +16564,33 @@
 '26264081':
   Date: '20190219'
   Filename: Xic0_Lcpi,pKpi-res=LHCbAcceptance
+'26264082':
+  Date: '20201006'
+  Filename: Xic26450_Xicpi,pKpi=phsp,TightCut
+'26264083':
+  Date: '20201006'
+  Filename: Xic27900_Xicpi,pKpi=phsp,TightCut
+'26264084':
+  Date: '20201006'
+  Filename: Xic29230_Xicpi,pKpi=phsp,TightCut
+'26264085':
+  Date: '20201006'
+  Filename: Xic29380_Xicpi,pKpi=phsp,TightCut
+'26264086':
+  Date: '20201006'
+  Filename: Xic29650_Xicpi,pKpi=phsp,TightCut
+'26264087':
+  Date: '20201007'
+  Filename: Omegac0_Xicpi,pKpi=phsp,TightCut
+'26264088':
+  Date: '20201007'
+  Filename: Omegac33250_XicK,pKpi=phsp,TightCut
+'26264089':
+  Date: '20201027'
+  Filename: Omegac31880_XicK,pKpi=phsp,TightCut
+'26264280':
+  Date: '20200929'
+  Filename: Xic27900_Xicprimepi,pKpi=phsp,TightCut
 '26265012':
   Date: '20140930'
   Filename: Xicc+_LcKpi,pKpi=PPchange,DecProdCut,WithMinPT
@@ -15568,12 +16612,48 @@
 '26265071':
   Date: '20180911'
   Filename: Lc2595_Lcpipi,pKpi-res=DecProdCut
+'26265072':
+  Date: '20201009'
+  Filename: Xic2815+_Xicpipi,pKpi=phsp,TightCut
+'26265073':
+  Date: '20201014'
+  Filename: Xic2923+_Xicpipi,pKpi=phsp,TightCut
+'26265074':
+  Date: '20201014'
+  Filename: Xic2970+_Xicpipi,pKpi=phsp,TightCut
+'26265075':
+  Date: '20201014'
+  Filename: Xic3055+_Xicpipi,pKpi=phsp,TightCut
 '26265076':
   Date: '20140419'
   Filename: Lambdac2595,Lc,pKpi=phsp,TightCut
+'26265970':
+  Date: '20210310'
+  Filename: Xicstst+2930_LcKpi,pKpi=phsp,TightCut
+'26265971':
+  Date: '20210310'
+  Filename: Xicstst+2970_LcKpi,pKpi=phsp,TightCut
+'26265972':
+  Date: '20210310'
+  Filename: Xicstst+3055_LcKpi,pKpi=phsp,TightCut
+'26265973':
+  Date: '20210310'
+  Filename: Xicstst+3080_LcKpi,pKpi=phsp,TightCut
 '26266022':
   Date: '20140930'
   Filename: Xicc++_LcKpipi,pKpi=PPchange,DecProdCut,WithMinPT
+'26266030':
+  Date: '20210318'
+  Filename: Xic28150_Xicpipi,pKKpi=phsp,TightCut
+'26266031':
+  Date: '20210318'
+  Filename: Xic29230_Xicpipi,pKKpi=phsp,TightCut
+'26266032':
+  Date: '20210318'
+  Filename: Xic29700_Xicpipi,pKKpi=phsp,TightCut
+'26266033':
+  Date: '20210318'
+  Filename: Xic30550_Xicpipi,pKKpi=phsp,TightCut
 '26266050':
   Date: '20170201'
   Filename: Xicc++_LcKpipi,pKpi-res=GenXicc,DecProdCut,WithMinPT3
@@ -15598,6 +16678,39 @@
 '26303012':
   Date: '20170306'
   Filename: Hc+_ppK=DecProdCut,m=2800MeV,t=0.2ps,PPChange
+'26374001':
+  Date: '20200810'
+  Filename: Sc0_Lcpi,pemu=TightCut
+'26374021':
+  Date: '20200810'
+  Filename: Sc++_Lcpi,pemu=TightCut
+'26374031':
+  Date: '20200810'
+  Filename: Scst0_Lcpi,pemu=TightCut
+'26374041':
+  Date: '20200810'
+  Filename: Scst++_Lcpi,pemu=TightCut
+'26575050':
+  Date: '20210114'
+  Filename: Xicc+_Xic0munu,pKKpi=pshp,GenXicc,DecProdCut,WithMinPT,MinDaughterPT200
+'26575061':
+  Date: '20210114'
+  Filename: Omegacc+_Xic0munu,pKKpi=pshp,GenXicc,DecProdCut,WithMinPT,MinDaughterPT200
+'26575062':
+  Date: '20210114'
+  Filename: Omegacc+_Omegac0munu,pKKpi=pshp,GenXicc,DecProdCut,WithMinPT,MinDaughterPT200
+'26575150':
+  Date: '20201217'
+  Filename: Xicc+_Omegac0munu,Omegapi,LambdaK=GenXicc,DecProdCut
+'26576150':
+  Date: '20201217'
+  Filename: Omegaccc_Omegaccmunu,Omegac0munu,Omegapi,LambdaK=GenXicc,DecProdCut
+'26674060':
+  Date: '20201217'
+  Filename: Xicc++_Xicmunu,pKpi-res=GenXicc,DecProdCut,t=256fs,WithMinPT,MinDaughterPT200
+'26674061':
+  Date: '20210114'
+  Filename: Xicc++_Lcmunu,pKpi=pshp,GenXicc,DecProdCut,t=256fs,WithMinPT,MinDaughterPT200
 '27103020':
   Date: '20170205'
   Filename: Dsst_KKpi=TightCut
@@ -15907,6 +17020,9 @@
 '27165072':
   Date: '20200601'
   Filename: Dst_D0pi,piKpipi=TightCuts,AmpGen
+'27165073':
+  Date: '20210325'
+  Filename: Dst_D0pi,Kpipipi=DecProdCut,AmpGen
 '27165100':
   Date: '20081212'
   Filename: Dst_D0pi,KSpipi=DecProdCut
@@ -16216,6 +17332,9 @@
 '27465006':
   Date: '20180926'
   Filename: Dst_D0pi,Kpipipi=TightCut
+'27465200':
+  Date: '20201127'
+  Filename: Dst_D0pi,Kpietapr=DecProdCut
 '27495730':
   Date: '20120113'
   Filename: Ds2st_2710=DecProdCut
@@ -16279,6 +17398,9 @@
 '27573405':
   Date: '20180926'
   Filename: Dst_D0pi,Kmunupi0=PHSP,TightCut,FSRinc
+'27573470':
+  Date: '20210330'
+  Filename: Dst_D0pi,rhomunu=DecProdCut
 '27573502':
   Date: '20121105'
   Filename: Dst_D0pi,Kstmunu=CharmForVubCut
@@ -16318,6 +17440,9 @@
 '27583403':
   Date: '20180926'
   Filename: Dst_D0pi,Kenupi0=PHSP,TightCut,FSRinc
+'27583470':
+  Date: '20210330'
+  Filename: Dst_D0pi,rhoenu=DecProdCut
 '27675001':
   Date: '20180910'
   Filename: Dst_D0pi,Kpipimunu=DecProdCut
@@ -16339,6 +17464,9 @@
 '27963001':
   Date: '20120425'
   Filename: Dst_D0pi,KKX=TightCut
+'28102000':
+  Date: '20201013'
+  Filename: incl_psi2S,pp=TightCut
 '28102001':
   Date: '20190207'
   Filename: incl_etac2S,pp=TightCut
@@ -16384,6 +17512,15 @@
 '28104003':
   Date: '20190207'
   Filename: incl_etac2S,phiphi,KK=TightCut
+'28104030':
+  Date: '20210409'
+  Filename: incl_chic0,phiphi,KK=TightCut
+'28104040':
+  Date: '20210409'
+  Filename: incl_chic1,phiphi,KK=TightCut
+'28104050':
+  Date: '20210409'
+  Filename: incl_chic2,phiphi,KK=TightCut
 '28104053':
   Date: '20120524'
   Filename: incl_chic2,phiphi=Pt0.3GeV
@@ -16561,12 +17698,21 @@
 '28496041':
   Date: '20200512'
   Filename: X3876_DDstar=TightCut2
+'28496042':
+  Date: '20210206'
+  Filename: X3876_DDstar=TightCut3
 '30000000':
   Date: '20090320'
   Filename: minbias
 '30000001':
   Date: '20090320'
   Filename: minbias=Biased5TrkPt600MeV
+'30000002':
+  Date: '20210325'
+  Filename: minbias=BiasedPbarPt300MeV
+'30000003':
+  Date: '20210325'
+  Filename: minbias=BiasedXiLambdabarPbarPt300MeV
 '30000030':
   Date: '20120329'
   Filename: minbias=HardScattering,pt30GeV
@@ -16738,6 +17884,12 @@
 '33102101':
   Date: '20130130'
   Filename: Lambda_ppi=PHSP,DecProdCut
+'33102102':
+  Date: '20201027'
+  Filename: Lambda_ppi=HELAMP,TightCut
+'33102103':
+  Date: '20201221'
+  Filename: Lambda_ppi=PHSP,TightCut
 '33112001':
   Date: '20111025'
   Filename: Lambda_Kmu=PHSP,DecProdCut
@@ -16750,6 +17902,9 @@
 '33512001':
   Date: '20170502'
   Filename: Lambda_pmunu=DecProdCut
+'33512008':
+  Date: '20190101'
+  Filename: Lambda_pmunuSHD=TightCut
 '34000000':
   Date: '20190222'
   Filename: minbias=BiasedKsPt350MeV
@@ -16879,6 +18034,9 @@
 '35103100':
   Date: '20130423'
   Filename: Xi_LambdaPi
+'35103102':
+  Date: '20201027'
+  Filename: Xi-_Lambdapi=HELAMP,TightCut
 '35513100':
   Date: '20170503'
   Filename: Xi_Lambdamunu
@@ -16891,9 +18049,15 @@
 '36103100':
   Date: '20130423'
   Filename: Omega_LambdaK+
+'36103102':
+  Date: '20201027'
+  Filename: Omega_LambdaK=HELAMP,TightCut
 '36105100':
   Date: '20140822'
   Filename: Omega_XiPiPi=DecProdCut
+'36115120':
+  Date: '20210105'
+  Filename: Omega-_Xi-mumu=phsp,DecProdCut
 '36515100':
   Date: '20170704'
   Filename: Omega_XiStarmunu=DecProdCut
@@ -16915,6 +18079,30 @@
 '37113010':
   Date: '20130927'
   Filename: K+_pi-mu+mu+=DecProdCut
+'37113020':
+  Date: '20210117'
+  Filename: K+_pi+e-mu+=DecProdCut
+'37113021':
+  Date: '20210112'
+  Filename: K+_pi+e-mu+=TightCut
+'37113030':
+  Date: '20210117'
+  Filename: K+_pi-e+mu+=DecProdCut
+'37113031':
+  Date: '20210112'
+  Filename: K+_pi-e+mu+=TightCut
+'37123000':
+  Date: '20210117'
+  Filename: K+_pi+e-e+=DecProdCut
+'37123001':
+  Date: '20210112'
+  Filename: K+_pi+e-e+=TightCut
+'37123010':
+  Date: '20210117'
+  Filename: K+_pi-e+e+=DecProdCut
+'37123011':
+  Date: '20210112'
+  Filename: K+_pi-e+e+=TightCut
 '37513000':
   Date: '20131018'
   Filename: K+_pipimunu=DecProdCut
@@ -17356,6 +18544,15 @@
 '40114045':
   Date: '20161215'
   Filename: Higgs_AA_mumumumu,mH=50GeV,mA=20GeV,tA=100ps,Hnarrow
+'40114050':
+  Date: '20201005'
+  Filename: Higgs_ZZ_mumumumu
+'40124000':
+  Date: '20201005'
+  Filename: Higgs_ZZ_eeee
+'40124010':
+  Date: '20201005'
+  Filename: Higgs_ZZ_mumuee
 '40900001':
   Date: '20120524'
   Filename: gg_Higgs_bb=mH125GeV,2binAcc
@@ -17584,6 +18781,9 @@
 '42112003':
   Date: '20120520'
   Filename: Zg_mumu=PHOTOS
+'42112005':
+  Date: '20200911'
+  Filename: Z_mumu_PowHeg40GeV
 '42112010':
   Date: '20070827'
   Filename: DrellYan_mumu=2GeV
@@ -17650,6 +18850,9 @@
 '42112202':
   Date: '20180104'
   Filename: Z_Upsilongamma=DecProdCut_update
+'42114000':
+  Date: '20200911'
+  Filename: ZZ_mumumumu
 '42122000':
   Date: '20110926'
   Filename: Z_ee
@@ -17659,6 +18862,9 @@
 '42122002':
   Date: '20121024'
   Filename: Zg_ee=PHOTOS
+'42122005':
+  Date: '20200911'
+  Filename: Z_ee_PowHeg40GeV
 '42122011':
   Date: '20150720'
   Filename: DrellYan_ee=10GeV
@@ -17674,6 +18880,12 @@
 '42122032':
   Date: '20070827'
   Filename: DrellYan_eejet=5GeV
+'42124000':
+  Date: '20200911'
+  Filename: ZZ_eeee
+'42124010':
+  Date: '20200911'
+  Filename: ZZ_mumuee
 '42131201':
   Date: '20170622'
   Filename: W,Kstar,K+pi0gamma=DecProdCut
@@ -18219,58 +19431,61 @@
   Filename: dijet=b,pt50GeV
 '49000060':
   Date: '20200318'
-  Filename: dijet=b,m80GeV
+  Filename: dijet=b,m70GeV
 '49000061':
   Date: '20200318'
   Filename: dijet=b,m70,110GeV
 '49000062':
   Date: '20200318'
-  Filename: dijet=b,m100GeV
+  Filename: dijet=b,m110GeV
 '49000063':
   Date: '20200318'
-  Filename: dijet=b,m80GeV,mu
+  Filename: dijet=b,m70GeV,mu
 '49000064':
   Date: '20200318'
   Filename: dijet=b,m70,110GeV,mu
 '49000065':
   Date: '20200318'
-  Filename: dijet=b,m100GeV,mu
+  Filename: dijet=b,m110GeV,mu
+'49000066':
+  Date: '20210223'
+  Filename: dijet=b,m140GeV,mu
 '49000070':
   Date: '20200318'
-  Filename: dijet=c,m80GeV
+  Filename: dijet=c,m70GeV
 '49000071':
   Date: '20200318'
   Filename: dijet=c,m70,110GeV
 '49000072':
   Date: '20200318'
-  Filename: dijet=c,m100GeV
+  Filename: dijet=c,m110GeV
 '49000073':
   Date: '20200318'
-  Filename: dijet=c,m80GeV,mu
+  Filename: dijet=c,m70GeV,mu
 '49000074':
   Date: '20200318'
   Filename: dijet=c,m70,110GeV,mu
 '49000075':
   Date: '20200318'
-  Filename: dijet=c,m100GeV,mu
+  Filename: dijet=c,m110GeV,mu
+'49000076':
+  Date: '20210223'
+  Filename: dijet=c,m140GeV,mu
 '49000080':
   Date: '20200318'
-  Filename: dijet=q,m80GeV
+  Filename: dijet=q,m70GeV
 '49000081':
   Date: '20200318'
   Filename: dijet=q,m70,110GeV
 '49000082':
   Date: '20200318'
-  Filename: dijet=q,m100GeV
-'49000083':
-  Date: '20200318'
-  Filename: dijet=q,m80GeV,mu
+  Filename: dijet=q,m110GeV
 '49000084':
   Date: '20200318'
   Filename: dijet=q,m70,110GeV,mu
-'49000085':
-  Date: '20200318'
-  Filename: dijet=q,m100GeV,mu
+'49000086':
+  Date: '20210223'
+  Filename: dijet=q,m140GeV
 '49000150':
   Date: '20141215'
   Filename: ditau=gamma,m5,m10GeV
@@ -18334,6 +19549,12 @@
 '49021015':
   Date: '20180213'
   Filename: bbbar=HardQCD,pt14GeV,e
+'49112000':
+  Date: '20201012'
+  Filename: cep_mumu,inAcc,m1.4GeV
+'49122000':
+  Date: '20201012'
+  Filename: cep_ee,inAcc,m1.4GeV
 '49142000':
   Date: '20190415'
   Filename: cep_psi1S_mumu
@@ -18355,6 +19576,15 @@
 '49142112':
   Date: '20150717'
   Filename: cep_chic2_psi1Sgamma,mumu
+'49142113':
+  Date: '20201012'
+  Filename: cep_chic0_psi1Sgamma,mumu=Psi,MuMuInAcc
+'49142114':
+  Date: '20201012'
+  Filename: cep_chic1_psi1Sgamma,mumu=Psi,MuMuInAcc
+'49142115':
+  Date: '20201012'
+  Filename: cep_chic2_psi1Sgamma,mumu=Psi,MuMuInAcc
 '49144001':
   Date: '20150717'
   Filename: cep_psi2S_psi1Spipi,mumu
@@ -18370,9 +19600,24 @@
 '49152003':
   Date: '20200107'
   Filename: cep_psi2S_ee=Psi,EEInAcc
+'49152113':
+  Date: '20201012'
+  Filename: cep_chic0_psi1Sgamma,ee=Psi,EEInAcc
+'49152114':
+  Date: '20201012'
+  Filename: cep_chic1_psi1Sgamma,ee=Psi,EEInAcc
+'49152115':
+  Date: '20201012'
+  Filename: cep_chic2_psi1Sgamma,ee=Psi,EEInAcc
 '49942001':
   Date: '20150717'
   Filename: cep_psi2S_psi1SX,mumu
+'49942002':
+  Date: '20201012'
+  Filename: cep_psi2S_psi1SX,mumu=Psi,MuMuInAcc
+'49952002':
+  Date: '20201012'
+  Filename: cep_psi2S_psi1SX,ee=Psi,EEInAcc
 '51000000':
   Date: '20090207'
   Filename: e-,fixP=CaloAcc
@@ -18396,10 +19641,13 @@
   Filename: gamma,fixE=CaloAcc
 '56040000':
   Date: '20160529'
-  Filename: gamma,contHighE=CaloAcc
+  Filename: gamma,contLowE=CaloAcc
 '56200001':
   Date: '20180923'
   Filename: pi0,fixE=CaloAcc
+'59963001':
+  Date: '20210415'
+  Filename: gun_Dst_D0pi,D0_Kpi=NoCut
 '59984000':
   Date: '20160302'
   Filename: ContinuumDD,KPi,KPi=NoCut
