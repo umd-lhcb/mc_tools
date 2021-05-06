@@ -3,9 +3,7 @@
 
   inputs = rec {
     flake-utils.url = "github:numtide/flake-utils";
-    mach-nix = {
-      url = "github:DavHau/mach-nix";
-    };
+    mach-nix.url = "github:DavHau/mach-nix";
   };
 
   outputs = { self, flake-utils, mach-nix }:
