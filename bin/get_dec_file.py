@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Thu May 06, 2021 at 01:55 AM +0200
+# Last Change: Thu May 06, 2021 at 02:06 AM +0200
 
 from urllib.request import urlretrieve
 from argparse import ArgumentParser
@@ -34,7 +34,7 @@ specify output directory.
     ''')
 
     parser.add_argument('-t', '--tag',
-                        default='v30r46',
+                        default='master',
                         help='''
 specify DecFiles tag.
 ''')
