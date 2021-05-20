@@ -101,23 +101,25 @@ void yields_MC(){
   //listNames("proctuples_BCandHistos_Dst.root");
   //return;
 
+  bool doPhoebe = true;
+  
   double RDss = 0.12 * 0.7 * 0.1741; // RD** * eff_sig/eff_norm * BF(tau -> mu nu) 
   vector<TString> D0names({"Dmu_ALT", "uDstmuALT", "dDstmuALT", "dD0muALT", "uD0muALT", "dD1muALT", "uD1muALT", "dD1pmuALT", "uD1pmuALT", "dD2muALT", "uD2muALT", "dD0tauALT", "uD0tauALT", "dD1tauALT", "uD1tauALT", "dD1ptauALT", "uD1ptauALT", "dD2tauALT", "uD2tauALT","Dpipimu", "Dstzpipimu", "Dstppipimu","sDs1pmuALT","sDs2muALT", "uDDmu","dDDmu","uDDtau","dDDtau"});
   vector<double>   D0Greg({3.66e5,    9.17e5,      6.95e4,      9.56e3,     2.02e4,     3.66e3 ,    4.8e4,      8.15e3,      7.38e3,      5.2e3,      1.63e3,     1.74e3,      1.74e3,      1.74e3,      1.74e3,       1.74e3,       1.74e3,      1.74e3,      1.74e3,     3.82e4,     1.24e4,       3.59e3,      7.03e3,      4.2e3   ,    7.49e4, 7.49e4, 4.55e3,  4.55e3});
   vector<double> D0Phoebe({358214,    944864,      71361.9,     4802.21,    6731.07,    13900.6,    29325.1,    6473.94,     7887.02,     3900.77,    5041.93,  4802.21*RDss,  6731.07*RDss, 13900.6*RDss,  29325.1*RDss,  6473.94*RDss,  7887.02*RDss,  3900.77*RDss,5041.93*RDss,1511.04,   49462.2,       4465.13,     4228.45,     1343.69,     38330.7,31483.9, 4845.04, 1003.54}); 
-  doTable("BCandHistos_D0.root", D0names, D0Phoebe);
+  if(doPhoebe) doTable("BCandHistos_D0.root", D0names, D0Phoebe);
+  else doTable("BCandHistos_D0.root", D0names, D0Greg);
   
   vector<TString> Dstnames({"sigmuALT", "D1_ALT", "D1p_ALT", "D2_ALT", "D1tau_ALT", "D1ptau_ALT", "D2tau_ALT", "D2Smu", "uDDmu", "dDDmu", "dDDtau", "uDDtau"});
   vector<double>   DstGreg({3.31e5,     1.12e4,  1.36e4,    3.22e3,    459,         459,          459,         1,       2.43e4,  2.43e4,  1.08e3,   1.08e3});
   vector<double> DstPhoebe({323024,      8129.17, 8469.96,   2063.15,   8129*RDss,    8469.96*RDss,  2063*RDss,    7521.18, 3805.92, 17633.6, 103.695,  991.056});
-  doTable("BCandHistos_Dst.root", Dstnames, DstPhoebe);
+  if(doPhoebe) doTable("BCandHistos_Dst.root", Dstnames, DstPhoebe);
+  else doTable("BCandHistos_Dst.root", Dstnames, DstGreg);
 
-  
-  
 }
 
+// In case we once want to output a table directly
 
-  
 // {"12573010", "12573012", "B- -> D0 mu nu",                  "Dmu_ALT",          
 // {"11574020", "11574021", "B0 -> D*+ mu nu",                 "dDstmuALT",           
 // {"12573031", "12773410", "B- -> D*0 mu nu",                 "uDstmuALT",          
@@ -143,52 +145,3 @@ void yields_MC(){
 // {"11874070", "11894210", "B0 -> D*+(Ds -> tau nu) X",        
 // {"12874010", "12895400", "B+ -> D*+ (Xc -> mu nu X')X",      
 // {"12874030", "12895000", "B+ -> D*+(Ds -> tau nu) X",            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
