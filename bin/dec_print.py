@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Wed Jul 08, 2020 at 01:21 AM +0800
+# Last Change: Tue Jun 08, 2021 at 08:51 PM +0200
 
 import sys
 import operator
@@ -22,16 +22,17 @@ class MyDecFileParser(DecFileParser):
             mother = PDG2EvtGenNameMap[mother]
 
         dms = self._find_decay_modes(mother)
-
         output_dms = list()
+
         # Finding maximum length of decay string
         maxlen = 0
         for dm in dms:
             dm_details = self._decay_mode_details(dm)
             decay = ('  '.join(p for p in dm_details[1]))
+            if(len(decay) > maxlen):
+                maxlen = len(decay)
 
-            if(len(decay) > maxlen): maxlen = len(decay)
-        width = str(maxlen + 5) # Print the FF 5 spaces away from closest decay
+        width = str(maxlen + 5)  # Print the FF 5 spaces away from closest decay
         format_string = '%-'+width+'s %s %s'
         for dm in dms:
             dm_details = self._decay_mode_details(dm)
