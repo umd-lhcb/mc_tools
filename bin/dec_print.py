@@ -2,7 +2,7 @@
 #
 # Author: Yipeng Sun
 # License: BSD 2-clause
-# Last Change: Wed Jun 09, 2021 at 06:58 PM +0200
+# Last Change: Fri Jun 11, 2021 at 01:33 PM +0200
 
 import sys
 import operator
@@ -41,9 +41,9 @@ class MyDecFileParser(DecFileParser):
 
         for bf, info in ls:
             if print_model:
-                line = '  %.4f   %s     %s  %s' % (bf/norm, *info)
+                line = "  {:.4f}   {}     {}  {}".format(bf / norm, *info)
             else:
-                line = '  %.4f   %s' % (bf/norm, info[0])
+                line = "  {:.4f}   {}".format(bf / norm, info[0])
             print(line.rstrip()+';')
 
     def _decay_mode_details(self, decay_mode):
