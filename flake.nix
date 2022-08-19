@@ -2,11 +2,12 @@
   description = "Tools for MC-related activities.";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-unstable";
-    flake-utils.url = "github:numtide/flake-utils";
+    root-curated.url = "github:umd-lhcb/root-curated";
+    nixpkgs.follows = "root-curated/nixpkgs";
+    flake-utils.follows = "root-curated/flake-utils";
   };
 
-  outputs = { self, nixpkgs, flake-utils }:
+  outputs = { self, root-curated, nixpkgs, flake-utils }:
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs { inherit system; };
@@ -17,15 +18,17 @@
         devShell = pkgs.mkShell {
           name = "mc_tools";
           buildInputs = with pythonPackages; [
-            # Auto completion
-            jedi
-
             # Linters
-            flake8
             pylint
 
             # Python requirements (enough to get a virtualenv going).
             virtualenvwrapper
+            numpy
+            pandas
+            lark-parser
+            attrs
+            pyyaml
+            chardet
           ];
 
           shellHook = ''
