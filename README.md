@@ -9,7 +9,7 @@ only useful when updating the `.dec` YAML database.
 ## Installation
 Install all Python dependencies with:
 ```
-pip -r ./requirements.txt
+pip install -r ./requirements.txt
 ```
 
 
