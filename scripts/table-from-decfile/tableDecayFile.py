@@ -20,7 +20,8 @@ def main():
         if words[0] == "add" and words[2] == "Particle":
             part_dict[words[3]] = int(words[4])
     pdlFile.close()
-
+    part_ids = list(part_dict.values())
+    
     # Reference decay file
     tree_ref = ET.parse(refFile)
     root_ref = tree_ref.getroot()
@@ -77,6 +78,10 @@ def main():
             for exclusive in api.get_particle_by_mcid(part_dict[signal]).exclusive_branching_fractions():
                 try:    decay_products = [int(p.item.particle.mcid) for p in exclusive.decay_products if p.item.particle]
                 except: pass
+                if (part_dict[signal] < 0):
+                    for dp in range(len(decay_products)):
+                        if (-decay_products[dp] in part_ids):
+                            decay_products[dp] = -decay_products[dp]
                 decay_products.sort()
                 if (pr_dec_list_id == decay_products):
                     br_pdg = '{:.6f}'.format(round(float(exclusive.value), 6))
