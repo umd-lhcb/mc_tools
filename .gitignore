@@ -2,6 +2,7 @@ __pycache__
 *.pyc
 *.yml
 .DS_Store
+*~
 
 .lvimrc
 dec_files
